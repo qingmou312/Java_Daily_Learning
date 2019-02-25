@@ -1,3 +1,5 @@
+package Single;
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.Socket;
@@ -13,7 +15,7 @@ public class SingleThreadClient {
         String host = "127.0.0.1";
         try {
             if (args.length > 0) {
-                port = Integer.valueOf(args[0]);
+                port = Integer.parseInt(args[0]);
             }
             //创建客户端对象
             Socket client = new Socket(host, port);

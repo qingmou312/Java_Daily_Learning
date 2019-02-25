@@ -1,3 +1,5 @@
+package Single;
+
 import java.io.IOException;
 import java.io.OutputStreamWriter;
 import java.net.ServerSocket;
@@ -13,12 +15,13 @@ public class SingleThreadServer {
         int port=6666;
         try {
             if(args.length>0){
-                port=Integer.valueOf(args[0]);
+                port=Integer.parseInt(args[0]);
             }
+
             //创建一个服务端对象
             ServerSocket serverSocket = new ServerSocket(port);
             System.out.println("等待客户端的连接。。。");
-            System.out.println(serverSocket.getLocalSocketAddress());
+            System.out.println(serverSocket.getLocalSocketAddress() );
 
 
             //接收客户端连接，创建Socket对象
