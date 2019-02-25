@@ -23,17 +23,50 @@ public class WriteDataToServerThread implements Runnable {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(client.getOutputStream());
             Scanner out = new Scanner(System.in);
             while (true) {
-                String messageToServer=out.nextLine();
-                outputStreamWriter.write(" " + messageToServer+"\n");
-                outputStreamWriter.flush();
-                if (messageToServer.equals("bye")) {
+                String line = out.next();
+                settingInfo();
+                switch (line){
+                    case "U":
+                        System.out.print("请输入用户名：");
+                        String message=out.next();
+                        outputStreamWriter.write(message + "\n");
+                        outputStreamWriter.flush();
+                    case "L":
+                        usageInfo();
+                        String chouce=out.next();
+                        switch (chouce){
+                            case"P":
+                            case"G":
+                            case"Q":
+                        }
+
+                }
+                if (line.equals("bye")) {
                     client.close();
                     break;
                 }
             }
-        } catch (IOException e) {
+        } catch (
+                IOException e)
+
+        {
             e.printStackTrace();
         }
+    }
+    //菜单
+    public static void settingInfo() {
+        System.out.println("*************************************************");
+        System.out.println("******        欢迎使用本地聊天系统          ******");
+        System.out.println("******      [U] 注册       [L] 登录        ******");
+        System.out.println("******         输入:  U L 进入操作         ******");
+        System.out.println("*************************************************");
+    }
 
+    public static void usageInfo() {
+        System.out.println("*************************************************");
+        System.out.println("******        欢迎使用本地聊天系统          ******");
+        System.out.println("******      [P] 私聊  [G] 群聊  [Q] 退出    ******");
+        System.out.println("******        输入:  P G Q 进入操作         ******");
+        System.out.println("*************************************************");
     }
 }

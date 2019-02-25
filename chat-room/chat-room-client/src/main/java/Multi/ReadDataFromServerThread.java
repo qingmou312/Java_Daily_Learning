@@ -19,12 +19,13 @@ public class ReadDataFromServerThread implements Runnable {
 
     @Override
     public void run() {
-        InputStream inputStream;
         try {
-            Scanner in = new Scanner(client.getInputStream());
-            while (in.hasNext()) {
-                System.out.println(in.nextLine());
-                if (in.next().equals("bye")) {
+            InputStream inputStream=client.getInputStream();
+            Scanner in = new Scanner(inputStream);
+            while (true) {
+                String message=in.next();
+                System.out.println(message);
+                if (message.equals("bye")) {
                     break;
                 }
             }

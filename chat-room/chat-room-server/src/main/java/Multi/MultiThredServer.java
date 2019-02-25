@@ -20,7 +20,6 @@ public class MultiThredServer {
 
             while (true) {
                 Socket socket=client.accept();
-                System.out.println("客户端连接成功！！！");
                 ONLINE_USER.submit(new ExecuteClient(socket));
             }
 
