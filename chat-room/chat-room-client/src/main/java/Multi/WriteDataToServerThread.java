@@ -23,36 +23,61 @@ public class WriteDataToServerThread implements Runnable {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(client.getOutputStream());
             Scanner out = new Scanner(System.in);
             while (true) {
-                String line = out.next();
                 settingInfo();
-                switch (line){
-                    case "U":
+                String line = out.next();
+                int quit = 0;
+                switch (line) {
+                    case "U": {
                         System.out.print("请输入用户名：");
-                        String message=out.next();
+                        String message = out.next();
                         outputStreamWriter.write(message + "\n");
                         outputStreamWriter.flush();
-                    case "L":
-                        usageInfo();
-                        String chouce=out.next();
-                        switch (chouce){
-                            case"P":
-                            case"G":
-                            case"Q":
+                        break;
+                    }
+                    case "L": {
+                        while (true) {
+                            usageInfo();
+                            String chouce = out.next();
+                            switch (chouce) {
+                                case "P": {
+                                    System.out.print("请输入私聊的成员，以及聊天内容：");
+                                    String privateMessage = out.next();
+                                    outputStreamWriter.write(privateMessage + "\n");
+                                    outputStreamWriter.flush();
+                                    break;
+                                }
+                                case "G": {
+                                    System.out.print("请在群中输入聊天内容：");
+                                    String groupMessage = out.next();
+                                    outputStreamWriter.write(groupMessage + "\n");
+                                    outputStreamWriter.flush();
+                                    break;
+                                }
+                                default: {
+                                    String quitMessage = chouce;
+                                    outputStreamWriter.write(quitMessage + "\n");
+                                    outputStreamWriter.flush();
+                                    quit = 1;
+                                    break;
+                                }
+                            }
+                            if (quit == 1) {
+                                break;
+                            }
                         }
-
+                    }
                 }
-                if (line.equals("bye")) {
+                if (quit == 1) {
                     client.close();
                     break;
                 }
             }
         } catch (
-                IOException e)
-
-        {
+                IOException e) {
             e.printStackTrace();
         }
     }
+
     //菜单
     public static void settingInfo() {
         System.out.println("*************************************************");
