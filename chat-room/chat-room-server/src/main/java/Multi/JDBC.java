@@ -1,17 +1,19 @@
 package Multi;
 
 import java.sql.*;
-import java.time.LocalDateTime;
+import java.util.ArrayList;
 
 /**
  * Author:lidan
  * Created:2019/2/28
  */
 public class JDBC {
-    public static void main(String[] args) {
-        sql();
-    }
-    public static void sql() {
+
+    private Connection connection;//创建数据库连接对象
+
+    //连接数据库的方法
+    public void sql() {
+
         //1.加载驱动程序
         try {
             Class.forName("com.mysql.jdbc.Driver");
@@ -22,38 +24,77 @@ public class JDBC {
 
         //2.连接数据库
         try {
-            Connection connection = DriverManager.getConnection("jdbc:MySQL://localhost:3306/chat_room?useSSL=false", "root", "123456");
+            String url = "jdbc:MySQL://localhost:3306/chat_room?useSSL=false";
+            String user = "root";
+            String password = "123456";
+            connection = DriverManager.getConnection(url, user, password);
+        } catch (SQLException e1) {
+            e1.printStackTrace();
+        }
+    }
 
+    //增加信息的方法
+    public void addPersonInfo(ChatPersonInfo chatPersonInfo) {
 
-            //3.创建命令
+        //创建命令
+        try {
             Statement statement = connection.createStatement();
 
-            //4.准备sql,并且执行
-            ResultSet resultSet = statement.executeQuery("select num,userName from chat_room_info");
+            // 创建SQL语句执行对象
+            StringBuffer strSQL = new StringBuffer();
 
-            //5.返回结果集，处理结果
-            while (resultSet.next()) {
-                //如果返回true，表示有下一行记录，否则无记录
-                int num = resultSet.getInt("num");
-                String userName = resultSet.getString("userName");
-                System.out.println(
-                        String.format("id：%d,用户名：%s",num,userName.toString())
-                );
-            }
+            // 组织SQL语句
+            strSQL.append("insert into chat_room_info values('");
+            strSQL.append(chatPersonInfo.getUserName());
+            strSQL.append("','");
+            strSQL.append(chatPersonInfo.getPassWord());
+            strSQL.append("')");
 
+            // 执行SQL语句
+            statement.execute(strSQL.toString());
 
-            //6.关闭结果集
-            resultSet.close();
-
-            //7.关闭命令
+            //关闭命令
             statement.close();
 
-            //8.关闭连接
+            //关闭数据库连接
             connection.close();
 
         } catch (SQLException e) {
             e.printStackTrace();
         }
+    }
+
+
+    //查找聊天室信息的方法
+    public String selectPersonInfo(String name) {
+        String result = null;
+        try {
+            //创建命令
+            Statement statement = connection.createStatement();
+
+            //4.准备sql,并且执行
+            ResultSet resultSet = statement.executeQuery("select userName,passWord from chat_room_info where userName = '" + name + "'");
+
+            //5.返回结果集，处理结果
+            while (resultSet.next()) {
+                String username = resultSet.getString("userName");
+                String password = resultSet.getString("passWord");
+                result = String.format("%s,%s", username, password);
+            }
+
+            //关闭结果集
+            resultSet.close();
+
+            //关闭命令
+            statement.close();
+
+            //关闭连接
+            connection.close();
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return result;
     }
 }
 

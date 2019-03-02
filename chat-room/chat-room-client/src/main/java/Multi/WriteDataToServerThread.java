@@ -23,75 +23,17 @@ public class WriteDataToServerThread implements Runnable {
             OutputStreamWriter outputStreamWriter = new OutputStreamWriter(client.getOutputStream());
             Scanner out = new Scanner(System.in);
             while (true) {
-                settingInfo();
-                String line = out.next();
-                int quit = 0;
-                switch (line) {
-                    case "U": {
-                        System.out.print("请输入用户名：");
-                        String message = out.next();
-                        outputStreamWriter.write(message + "\n");
-                        outputStreamWriter.flush();
-                        break;
-                    }
-                    case "L": {
-                        while (true) {
-                            usageInfo();
-                            String chouce = out.next();
-                            switch (chouce) {
-                                case "P": {
-                                    System.out.print("请输入私聊的成员，以及聊天内容：");
-                                    String privateMessage = out.next();
-                                    outputStreamWriter.write(privateMessage + "\n");
-                                    outputStreamWriter.flush();
-                                    break;
-                                }
-                                case "G": {
-                                    System.out.print("请在群中输入聊天内容：");
-                                    String groupMessage = out.next();
-                                    outputStreamWriter.write(groupMessage + "\n");
-                                    outputStreamWriter.flush();
-                                    break;
-                                }
-                                default: {
-                                    String quitMessage = chouce;
-                                    outputStreamWriter.write(quitMessage + "\n");
-                                    outputStreamWriter.flush();
-                                    quit = 1;
-                                    break;
-                                }
-                            }
-                            if (quit == 1) {
-                                break;
-                            }
-                        }
-                    }
-                }
-                if (quit == 1) {
-                    client.close();
+                String message = out.next();
+                outputStreamWriter.write(message + "\n");
+                outputStreamWriter.flush();
+                if (message.equals("Q")) {
                     break;
                 }
             }
+
         } catch (
                 IOException e) {
             e.printStackTrace();
         }
-    }
-
-    //菜单
-    public static void settingInfo() {
-        System.out.println("*************************************************");
-        System.out.println("******        欢迎使用本地聊天系统          ******");
-        System.out.println("******      [U] 注册       [L] 登录        ******");
-        System.out.println("******         输入:  U L 进入操作         ******");
-        System.out.println("*************************************************");
-    }
-
-    public static void usageInfo() {
-        System.out.println("*************************************************");
-        System.out.println("******        欢迎使用本地聊天系统          ******");
-        System.out.println("******      [P] 私聊  [G] 群聊  [Q] 退出    ******");
-        System.out.println("******        输入:  P G Q 进入操作         ******");
-        System.out.println("*************************************************");
     }
 }
