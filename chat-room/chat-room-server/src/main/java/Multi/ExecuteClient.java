@@ -135,11 +135,13 @@ public class ExecuteClient implements Runnable {
                         if (entry.getKey().equals(userName)) {
                             sendMessage(this.currnentClient, "该用户已在线，请重新输入账户！！！");
                             break;
+                        } else {
+                            CLIENT_Map.put(userName, this.currnentClient);
+                            sendMessage(this.currnentClient, "登录成功！！！");
+                            break;
                         }
                     }
-                    CLIENT_Map.put(userName, this.currnentClient);
-                    sendMessage(this.currnentClient, "登录成功！！！");
-                }else {
+                } else {
                     CLIENT_Map.put(userName, this.currnentClient);
                     sendMessage(this.currnentClient, "登录成功！！！");
                 }
