@@ -6,7 +6,7 @@
 
     <groupId>chat-room</groupId>
     <artifactId>chat-room</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.0</version>
     <modules>
         <module>chat-room-server</module>
         <module>chat-room-client</module>

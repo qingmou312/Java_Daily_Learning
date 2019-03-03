@@ -9,9 +9,14 @@ import java.net.Socket;
  */
 public class MultiThreadClient {
     public static void main(String[] args) {
+        int port = 6666;
+        String host = "127.0.0.1";
         try {
+            if (args.length > 0) {
+                port = Integer.parseInt(args[0]);
+            }
             System.out.println("正在连接服务器！！！");
-            Socket client = new Socket("127.0.0.1", 6666);
+            Socket client = new Socket(host, port);
             System.out.println("连接服务器成功！！！");
             new Thread(new ReadDataFromServerThread(client)).start();
             new Thread(new WriteDataToServerThread(client)).start();

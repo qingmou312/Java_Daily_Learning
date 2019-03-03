@@ -67,7 +67,7 @@ public class JDBC {
 
     //查找聊天室信息的方法
     public String selectPersonInfo(String name) {
-        String result = null;
+        String result = "";
         try {
             //创建命令
             Statement statement = connection.createStatement();

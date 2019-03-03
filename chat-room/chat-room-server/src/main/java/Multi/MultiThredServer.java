@@ -13,12 +13,16 @@ import java.util.concurrent.Executors;
 public class MultiThredServer {
     public static void main(String[] args) {
         final ExecutorService ONLINE_USER = Executors.newFixedThreadPool(10);
+        int port = 6666;
         try {
-            ServerSocket client = new ServerSocket(6666);
+            if (args.length > 0) {
+                port = Integer.parseInt(args[0]);
+            }
+            ServerSocket client = new ServerSocket(port);
             System.out.println("等待客户端的连接。。。");
 
             while (true) {
-                Socket socket=client.accept();
+                Socket socket = client.accept();
                 System.out.println("客户端连接成功！！！");
                 ONLINE_USER.submit(new ExecuteClient(socket));
             }

@@ -12,10 +12,10 @@ import java.util.Scanner;
  */
 public class SingleThreadServer {
     public static void main(String[] args) {
-        int port=6666;
+        int port = 6666;
         try {
-            if(args.length>0){
-                port=Integer.parseInt(args[0]);
+            if (args.length > 0) {
+                port = Integer.parseInt(args[0]);
             }
 
             //创建一个服务端对象

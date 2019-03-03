@@ -31,12 +31,12 @@ public class ExecuteClient implements Runnable {
             Scanner sc = new Scanner(this.currnentClient.getInputStream());
 
             while (true) {
-                sendMessage(this.currnentClient,"*************************************************");
-                sendMessage(this.currnentClient,"******        欢迎使用本地聊天系统           ******");
-                sendMessage(this.currnentClient,"******      [U] 注册        [L] 登录        ******");
-                sendMessage(this.currnentClient,"******    [P] 私聊  [G] 群聊  [Q] 退出      ******");
-                sendMessage(this.currnentClient,"******       输入: P G Q U L 进入操作       ******");
-                sendMessage(this.currnentClient,"*************************************************");
+                sendMessage(this.currnentClient, "*************************************************");
+                sendMessage(this.currnentClient, "******        欢迎使用本地聊天系统           ******");
+                sendMessage(this.currnentClient, "******      [U] 注册        [L] 登录        ******");
+                sendMessage(this.currnentClient, "******    [P] 私聊  [G] 群聊  [Q] 退出      ******");
+                sendMessage(this.currnentClient, "******       输入: P G Q U L 进入操作       ******");
+                sendMessage(this.currnentClient, "*************************************************");
                 String message = sc.next();
 
                 //注册账号
@@ -105,7 +105,7 @@ public class ExecuteClient implements Runnable {
         String currentUserName = this.currnentClientName();
         for (Map.Entry<String, Socket> entry : CLIENT_Map.entrySet()) {
             if (!entry.getKey().equals(currentUserName)) {
-                this.sendMessage(entry.getValue(), currentUserName + "在群里说" + groupMessage);
+                this.sendMessage(entry.getValue(), "群消息 from " + currentUserName + " : " + groupMessage);
             }
         }
     }
@@ -115,7 +115,7 @@ public class ExecuteClient implements Runnable {
         String currentUserName = this.currnentClientName();
         Socket target = CLIENT_Map.get(toUserName);
         if (target != null) {
-            this.sendMessage(target, currentUserName + "：" + toUserMessage + "\n");
+            this.sendMessage(target, "来自 " + currentUserName + " 的消息:" + toUserMessage + "\n");
             sendMessage(currnentClient, "消息发送成功！！！");
         } else {
             this.sendMessage(currnentClient, "用户不在线,消息发送失败！！！");
@@ -130,18 +130,24 @@ public class ExecuteClient implements Runnable {
             String name = info.split(",")[0];
             String password = info.split(",")[1];
             if (passWord.equals(password)) {
-                CLIENT_Map.put(userName, currnentClient);
-                sendMessage(this.currnentClient, "登录成功！！！");
-
+                if (CLIENT_Map.size() != 0) {
+                    for (Map.Entry<String, Socket> entry : CLIENT_Map.entrySet()) {
+                        if (entry.getKey().equals(userName)) {
+                            sendMessage(this.currnentClient, "该用户已在线，请重新输入账户！！！");
+                        }
+                    }
+                } else {
+                    CLIENT_Map.put(userName, currnentClient);
+                    sendMessage(this.currnentClient, "登录成功！！！");
+                    printOnlineUser();
+                }
             } else {
                 sendMessage(this.currnentClient, "密码错误！！！");
             }
         }
-        System.out.println("zhongjian");
         if (isEmpty == true) {//数据库里没有该账户
             sendMessage(this.currnentClient, "该账户不存在，请注册！！！");
         }
-        printOnlineUser();
     }
 
 
@@ -167,6 +173,7 @@ public class ExecuteClient implements Runnable {
             System.out.println("成员列表：");
             for (Map.Entry<String, Socket> entry : CLIENT_Map.entrySet()) {
                 System.out.println(entry.getKey());
+                System.out.println(this.currnentClient);
             }
         }
     }
@@ -185,7 +192,7 @@ public class ExecuteClient implements Runnable {
 //返回发消息人的ID
 
     private String currnentClientName() {
-        String currentName = "";
+        String currentName = null;
         for (Map.Entry<String, Socket> entry : CLIENT_Map.entrySet()) {
             if (this.currnentClient.equals(entry.getValue())) {
                 currentName = entry.getKey();
