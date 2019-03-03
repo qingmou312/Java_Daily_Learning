@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="09907adc-c2d4-4a6b-82c8-7f680bd86255" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/chat-room-client/target/" />
@@ -26,23 +26,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ExecuteClient.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ExecuteClient.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="1958">
+              <caret line="89" selection-start-line="89" selection-end-line="89" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#449#465#0" expanded="true" />
+                <element signature="e#606#607#0" expanded="true" />
+                <element signature="e#658#659#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MultiThreadClient.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MultiThreadClient.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="250">
               <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
@@ -62,8 +64,8 @@
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/JDBC.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/Single/SingleThreadServer.java" />
         <option value="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/MultiThredServer.java" />
-        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java" />
         <option value="$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java" />
+        <option value="$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java" />
       </list>
     </option>
   </component>
@@ -142,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiThreadClient">
+  <component name="RunManager" selected="Application.MultiThredServer">
     <configuration name="MultiThreadClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Multi.MultiThreadClient" />
       <module name="chat-room-client" />
@@ -236,7 +238,7 @@
       <workItem from="1551591612945" duration="4492000" />
       <workItem from="1551600482301" duration="2958000" />
       <workItem from="1551606447371" duration="990000" />
-      <workItem from="1551608054500" duration="1022000" />
+      <workItem from="1551608054500" duration="3367000" />
     </task>
     <task id="LOCAL-00001" summary="登录完善">
       <created>1551599833112</created>
@@ -259,25 +261,33 @@
       <option name="project" value="LOCAL" />
       <updated>1551607257994</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="登录完善">
+      <created>1551610701699</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1551610701726</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9462000" />
+    <option name="totallyTimeSpent" value="11807000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3289689" />
-      <window_info anchor="right" id="Maven Projects" order="3" weight="0.32980332" />
+      <window_info anchor="right" id="Maven Projects" order="3" visible="true" weight="0.32980332" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.4811784" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.3878887" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
@@ -295,7 +305,6 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -335,6 +344,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#449#465#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -360,6 +371,8 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#449#465#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -434,21 +447,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java">
+    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#449#465#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="250">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/chat-room-client/src/main/java/Multi/MultiThreadClient.java">
+    <entry file="file://$PROJECT_DIR$/chat-room-server/src/main/java/Multi/ExecuteClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        <state relative-caret-position="1958">
+          <caret line="89" selection-start-line="89" selection-end-line="89" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#449#465#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#658#659#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

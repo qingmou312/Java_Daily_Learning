@@ -19,6 +19,8 @@ public class ExecuteClient implements Runnable {
     JDBC jdbc = new JDBC();
     ChatPersonInfo person = new ChatPersonInfo();
 
+    int flag = 0;
+
     public ExecuteClient(Socket currnentClient) {
         this.currnentClient = currnentClient;
     }
@@ -48,42 +50,45 @@ public class ExecuteClient implements Runnable {
                     this.registerUser(userName, passWord, currnentClient);
                     continue;
                 }
+                if (flag == 0) {
+                    //登录账号
+                    if (message.equals("L")) {
+                        sendMessage(currnentClient, "请输入用户名：");
+                        String userName = sc.next();
+                        sendMessage(currnentClient, "请输入密码：");
+                        String passWord = sc.next();
+                        this.login(userName, passWord, currnentClient);
+                        continue;
+                    }
 
-                //登录账号
-                if (message.equals("L")) {
-                    sendMessage(currnentClient, "请输入用户名：");
-                    String userName = sc.next();
-                    sendMessage(currnentClient, "请输入密码：");
-                    String passWord = sc.next();
-                    this.login(userName, passWord, currnentClient);
-                    continue;
+                    //私聊
+                    if (message.equals("P")) {
+                        sendMessage(currnentClient, "请输入私聊成员：");
+                        String toUserName = sc.next();
+                        sendMessage(currnentClient, "请输入私聊消息：");
+                        String toUserMessage = sc.next();
+                        this.privateChat(toUserName, toUserMessage);
+                        continue;
+                    }
+
+                    //群聊
+                    if (message.equals("G")) {
+                        sendMessage(currnentClient, "请输入群聊消息：");
+                        String groupMessage = sc.next();
+                        this.groupChat(groupMessage);
+                        sendMessage(currnentClient, "消息发送成功！！！");
+                        continue;
+                    }
+
+                    //退出
+                    if (message.equals("Q")) {
+                        this.quit();
+                        break;
+                    }
+                } else {
+                    sendMessage(this.currnentClient, "请登录！！！");
+
                 }
-
-                //私聊
-                if (message.equals("P")) {
-                    sendMessage(currnentClient, "请输入私聊成员：");
-                    String toUserName = sc.next();
-                    sendMessage(currnentClient, "请输入私聊消息：");
-                    String toUserMessage = sc.next();
-                    this.privateChat(toUserName, toUserMessage);
-                    continue;
-                }
-
-                //群聊
-                if (message.equals("G")) {
-                    sendMessage(currnentClient, "请输入群聊消息：");
-                    String groupMessage = sc.next();
-                    this.groupChat(groupMessage);
-                    sendMessage(currnentClient, "消息发送成功！！！");
-                    continue;
-                }
-
-                //退出
-                if (message.equals("Q")) {
-                    this.quit();
-                    break;
-                }
-
             }
         } catch (IOException e) {
             e.printStackTrace();
@@ -167,6 +172,7 @@ public class ExecuteClient implements Runnable {
         } else {
             sendMessage(this.currnentClient, "该账户已存在，请重新注册！！！");
         }
+        flag = 1;
     }
 
 
