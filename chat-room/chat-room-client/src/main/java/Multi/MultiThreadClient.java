@@ -12,8 +12,9 @@ public class MultiThreadClient {
         int port = 6666;
         String host = "127.0.0.1";
         try {
-            if (args.length > 0) {
+            if (args.length > 1) {
                 port = Integer.parseInt(args[0]);
+                host = args[1];
             }
             System.out.println("正在连接服务器！！！");
             Socket client = new Socket(host, port);
