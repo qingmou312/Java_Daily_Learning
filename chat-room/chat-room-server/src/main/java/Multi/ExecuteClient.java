@@ -79,15 +79,13 @@ public class ExecuteClient implements Runnable {
                         sendMessage(currnentClient, "消息发送成功！！！");
                         continue;
                     }
-
-                    //退出
-                    if (message.equals("Q")) {
-                        this.quit();
-                        break;
-                    }
                 } else {
                     sendMessage(this.currnentClient, "请登录！！！");
-
+                }
+                //退出
+                if (message.equals("Q")) {
+                    this.quit();
+                    break;
                 }
             }
         } catch (IOException e) {
