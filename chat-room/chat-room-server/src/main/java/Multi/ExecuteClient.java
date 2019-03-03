@@ -115,7 +115,7 @@ public class ExecuteClient implements Runnable {
         String currentUserName = this.currnentClientName();
         Socket target = CLIENT_Map.get(toUserName);
         if (target != null) {
-            this.sendMessage(target, "来自 " + currentUserName + " 的消息:" + toUserMessage + "\n");
+            this.sendMessage(target, "来自 " + currentUserName + " 的消息: " + toUserMessage + "\n");
             sendMessage(currnentClient, "消息发送成功！！！");
         } else {
             this.sendMessage(currnentClient, "用户不在线,消息发送失败！！！");
@@ -134,12 +134,14 @@ public class ExecuteClient implements Runnable {
                     for (Map.Entry<String, Socket> entry : CLIENT_Map.entrySet()) {
                         if (entry.getKey().equals(userName)) {
                             sendMessage(this.currnentClient, "该用户已在线，请重新输入账户！！！");
+                            break;
                         }
                     }
-                } else {
-                    CLIENT_Map.put(userName, currnentClient);
+                    CLIENT_Map.put(userName, this.currnentClient);
                     sendMessage(this.currnentClient, "登录成功！！！");
-                    printOnlineUser();
+                }else {
+                    CLIENT_Map.put(userName, this.currnentClient);
+                    sendMessage(this.currnentClient, "登录成功！！！");
                 }
             } else {
                 sendMessage(this.currnentClient, "密码错误！！！");
@@ -148,6 +150,7 @@ public class ExecuteClient implements Runnable {
         if (isEmpty == true) {//数据库里没有该账户
             sendMessage(this.currnentClient, "该账户不存在，请注册！！！");
         }
+        printOnlineUser();
     }
 
 
