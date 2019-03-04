@@ -79,6 +79,7 @@ public class ExecuteClient implements Runnable {
                         sendMessage(currnentClient, "消息发送成功！！！");
                         continue;
                     }
+
                     //退出
                     if (message.equals("Q")) {
                         this.quit();
@@ -163,7 +164,7 @@ public class ExecuteClient implements Runnable {
         boolean isEmpty = info.isEmpty();//查找数据库的链表里是没有该账户返回true
         if (isEmpty == true) {
             insertInfo(userName, passWord);
-            System.out.println(userName + "注册成功！！！" + currnentClient.getRemoteSocketAddress());
+            System.out.println(userName + "注册成功！！！");
             sendMessage(this.currnentClient, "注册成功，请退出当前客户端，再次登录账号，进行聊天！！！");
         } else {
             sendMessage(this.currnentClient, "该账户已存在，请重新注册！！！");
