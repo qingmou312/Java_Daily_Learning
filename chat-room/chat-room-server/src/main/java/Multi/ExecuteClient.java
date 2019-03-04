@@ -48,7 +48,7 @@ public class ExecuteClient implements Runnable {
                     sendMessage(currnentClient, "请输入密码：");
                     String passWord = sc.next();
                     this.registerUser(userName, passWord, currnentClient);
-                    continue;
+                    break;
                 }
                 if (flag == 0) {
                     //登录账号
@@ -79,13 +79,11 @@ public class ExecuteClient implements Runnable {
                         sendMessage(currnentClient, "消息发送成功！！！");
                         continue;
                     }
-                } else {
-                    sendMessage(this.currnentClient, "请登录！！！");
-                }
-                //退出
-                if (message.equals("Q")) {
-                    this.quit();
-                    break;
+                    //退出
+                    if (message.equals("Q")) {
+                        this.quit();
+                        break;
+                    }
                 }
             }
         } catch (IOException e) {
@@ -166,7 +164,7 @@ public class ExecuteClient implements Runnable {
         if (isEmpty == true) {
             insertInfo(userName, passWord);
             System.out.println(userName + "注册成功！！！" + currnentClient.getRemoteSocketAddress());
-            sendMessage(this.currnentClient, "注册成功！！！");
+            sendMessage(this.currnentClient, "注册成功，请退出当前客户端，再次登录账号，进行聊天！！！");
         } else {
             sendMessage(this.currnentClient, "该账户已存在，请重新注册！！！");
         }
