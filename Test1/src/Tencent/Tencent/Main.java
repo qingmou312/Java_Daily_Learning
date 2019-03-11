@@ -1,4 +1,4 @@
-package NiuKe.Lianxi3_4.Tencent;
+package Tencent.Tencent;
 
 import java.util.Scanner;
 
