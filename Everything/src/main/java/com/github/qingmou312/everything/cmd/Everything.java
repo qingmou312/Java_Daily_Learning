@@ -7,8 +7,11 @@ package com.github.qingmou312.everything.cmd;
 public class Everything {
 
     public static void main(String[] args) {
-
-        System.out.println("1");
+        System.out.println("***********************************");
+        System.out.println("****   欢迎使用本地搜索引擎     ****");
+        System.out.println("****                           ****");
+        System.out.println("****                           ****");
+        System.out.println("***********************************");
 
     }
 }
