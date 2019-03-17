@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="bbee5af4-7058-4f31-b985-20f02b62be56" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -18,12 +17,39 @@
     <favorites_list name="Test1" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_11/Main.java">
+    <leaf>
+      <file leaf-file-name="N.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/zijietiaodong/N.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+            <state relative-caret-position="242">
+              <caret line="12" column="14" selection-end-line="39" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Wang.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/zijietiaodong/Wang.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="31" column="25" selection-start-line="31" selection-end-line="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Printer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="624">
+              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StringRotation.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="198">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -31,7 +57,7 @@
       <file leaf-file-name="LCA.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
+            <state relative-caret-position="206">
               <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -40,32 +66,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BinInsert.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="24" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+            <state relative-caret-position="340">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/Main.java">
+        <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1210">
-              <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="22">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="XiaoQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tencent/XiaoQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-66">
+              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NiuQ.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Tencent/NiuQ.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="352">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
             </state>
           </provider>
         </entry>
@@ -111,6 +143,8 @@
         <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java" />
         <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java" />
         <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java" />
+        <option value="$PROJECT_DIR$/src/zijietiaodong/N.java" />
+        <option value="$PROJECT_DIR$/src/zijietiaodong/Wang.java" />
       </list>
     </option>
   </component>
@@ -135,8 +169,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -159,20 +191,14 @@
               <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lianxi3_4" type="462c0819:PsiDirectoryNode" />
-              <item name="Lianxi3_12" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Lianxi3_4" type="462c0819:PsiDirectoryNode" />
-              <item name="Lianxi3_13" type="462c0819:PsiDirectoryNode" />
+              <item name="zijietiaodong" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -197,7 +223,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BinInsert">
+  <component name="RunManager" selected="Application.Wang">
     <configuration name="BinInsert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NiuKe.Lianxi3_4.Lianxi3_13.BinInsert" />
       <module name="Test1" />
@@ -220,17 +246,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NiuKe.Lianxi3_4.Lianxi3_11.Main" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NiuKe.Lianxi3_4.Lianxi3_11.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="NiuKe.Lianxi3_4.Lianxi3_13.Main" />
       <module name="Test1" />
@@ -242,13 +257,24 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Niuniu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Tencent.Niuniu" />
+    <configuration name="N" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zijietiaodong.N" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Tencent.*" />
+          <option name="PATTERN" value="zijietiaodong.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Wang" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zijietiaodong.Wang" />
+      <module name="Test1" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zijietiaodong.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,19 +321,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Niuniu" />
-      <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.LCA" />
       <item itemvalue="Application.Main (2)" />
       <item itemvalue="Application.BinInsert" />
+      <item itemvalue="Application.N" />
+      <item itemvalue="Application.Wang" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Wang" />
+        <item itemvalue="Application.N" />
         <item itemvalue="Application.BinInsert" />
         <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.LCA" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.Niuniu" />
       </list>
     </recent_temporary>
   </component>
@@ -335,7 +361,11 @@
       <workItem from="1552364784059" duration="2061000" />
       <workItem from="1552375389708" duration="8446000" />
       <workItem from="1552460317386" duration="4904000" />
-      <workItem from="1552465827449" duration="475000" />
+      <workItem from="1552465827449" duration="1463000" />
+      <workItem from="1552564589685" duration="588000" />
+      <workItem from="1552646476558" duration="141000" />
+      <workItem from="1552658636187" duration="642000" />
+      <workItem from="1552701750499" duration="6437000" />
     </task>
     <task id="LOCAL-00001" summary="练习">
       <created>1551774049973</created>
@@ -372,11 +402,18 @@
       <option name="project" value="LOCAL" />
       <updated>1552388449369</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="练习">
+      <created>1552466606561</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552466606561</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="89830000" />
+    <option name="totallyTimeSpent" value="98626000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,32 +430,32 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3207856" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.6497545" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49924356" weight="0.66939443" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.28290468" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" weight="0.301059" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.26096824" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
+      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.26096824" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -456,20 +493,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/MaxDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_8/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="56" lean-forward="true" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="440">
@@ -488,9 +511,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -540,9 +560,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="27" column="21" lean-forward="true" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +595,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="20" selection-start-line="3" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -611,20 +625,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
           <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="39" selection-start-line="39" selection-start-column="8" selection-end-line="41" selection-end-column="39" />
         </state>
       </provider>
     </entry>
@@ -684,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="660">
@@ -709,20 +702,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="128">
           <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/NiuQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="19" selection-start-line="8" selection-start-column="19" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/XiaoQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -764,20 +743,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_11/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="88">
           <caret line="5" column="3" lean-forward="true" selection-start-line="5" selection-start-column="3" selection-end-line="5" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -795,9 +764,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_11/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/N.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="12" column="14" selection-end-line="39" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="624">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
+        <state relative-caret-position="206">
           <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -807,25 +818,36 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="56" column="4" selection-start-line="56" selection-start-column="4" selection-end-line="56" selection-end-column="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="340">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java">
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+        <state relative-caret-position="22">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/Tencent/XiaoQ.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="9" selection-start-column="3" selection-end-line="24" selection-end-column="5" />
+        <state relative-caret-position="-66">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Tencent/NiuQ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="352">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/Wang.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="31" column="25" selection-start-line="31" selection-end-line="32" />
         </state>
       </provider>
     </entry>
