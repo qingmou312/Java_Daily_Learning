@@ -19,6 +19,9 @@ public class Page {
     //具体的网页路径
     private String path;
 
+    //
+    private DataSet dataSet;
+
     //网页的DOM对象
     private HtmlPage htmlPage;
 
@@ -28,8 +31,16 @@ public class Page {
     //子页面对象集合
     private Set<Page> subPage = new HashSet<>();
 
+    public Page(String base, String path, boolean detail) {
+        this.base = base;
+        this.path = path;
+        this.detail = detail;
+    }
+
     //数据对象
     public String getUrl() {
         return this.base + this.path;
     }
+
+
 }
