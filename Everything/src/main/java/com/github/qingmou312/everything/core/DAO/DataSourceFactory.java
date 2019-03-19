@@ -53,21 +53,24 @@ public class DataSourceFactory {
             try (BufferedReader reader = new BufferedReader(new InputStreamReader(in));) {
                 String line = null;
                 while ((line = reader.readLine()) != null) {
-                    if (!line.startsWith("-- ")) {
+                    if (!line.startsWith("--")) {
                         sqlBuilder.append(line);
                     }
                 }
             }
             String sql = sqlBuilder.toString();
-            //JDBC
+
             //获取数据库的连接
             Connection connection = dataSource.getConnection();
+
             //创建命令
             PreparedStatement statement = connection.prepareStatement(sql);
+
             //执行sql语句
             statement.execute();
 
             connection.close();
+
             statement.close();
 
         } catch (IOException e) {
@@ -75,6 +78,5 @@ public class DataSourceFactory {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
     }
 }
