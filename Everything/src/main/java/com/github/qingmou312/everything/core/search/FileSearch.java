@@ -1,11 +1,7 @@
 package com.github.qingmou312.everything.core.search;
 
-import com.github.qingmou312.everything.core.DAO.DataSourceFactory;
-import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
-import com.github.qingmou312.everything.core.DAO.impl.FileIndexDAOImpl;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.Thing;
-import com.github.qingmou312.everything.core.search.impl.FileSearchImpl;
 
 import java.util.List;
 

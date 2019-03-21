@@ -3,7 +3,6 @@ package com.github.qingmou312.everything.core.index.impl;
 import com.github.qingmou312.everything.config.EverythingConfig;
 import com.github.qingmou312.everything.core.index.FileScan;
 import com.github.qingmou312.everything.core.interceptor.FileInterceptor;
-import com.github.qingmou312.everything.core.interceptor.impl.FileIndexInterceptor;
 
 import java.io.File;
 import java.util.LinkedList;

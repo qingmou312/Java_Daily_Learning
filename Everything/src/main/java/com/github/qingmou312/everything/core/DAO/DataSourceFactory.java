@@ -1,6 +1,7 @@
 package com.github.qingmou312.everything.core.DAO;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.github.qingmou312.everything.config.EverythingConfig;
 
 import javax.sql.DataSource;
 import java.io.*;
@@ -33,8 +34,9 @@ public class DataSourceFactory {
                     dataSource.setDriverClassName("org.h2.Driver");
                     //url,username,password
                     //采用的时H2的嵌入式数据库,数据库以本地文件的方式存储,只需要提供url接口
+                    //获取当前工程路径
                     String workDir = System.getProperty("user.dir");
-                    dataSource.setUrl("jdbc:h2:" + workDir + File.separator + "Everything");//创建数据源的时候已经创建了数据库
+                    dataSource.setUrl("jdbc:h2:" + EverythingConfig.getInstance().getH2IndexPath() );//创建数据源的时候已经创建了数据库
                 }
             }
         }
@@ -74,6 +76,7 @@ public class DataSourceFactory {
             statement.close();
 
         } catch (IOException e) {
+            e.printStackTrace();
 
         } catch (SQLException e) {
             e.printStackTrace();

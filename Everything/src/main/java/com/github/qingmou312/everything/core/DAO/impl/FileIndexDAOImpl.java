@@ -1,6 +1,5 @@
 package com.github.qingmou312.everything.core.DAO.impl;
 
-import com.github.qingmou312.everything.core.DAO.DataSourceFactory;
 import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.FileType;
@@ -54,9 +53,10 @@ public class FileIndexDAOImpl implements FileIndexDAO {
 
 
         } catch (SQLException e) {
+            e.printStackTrace();
 
         } finally {
-            releaseResource(null,statement,connection);
+            releaseResource(null, statement, connection);
         }
 
     }
@@ -120,15 +120,15 @@ public class FileIndexDAOImpl implements FileIndexDAO {
             }
 
         } catch (SQLException e) {
-
+            e.printStackTrace();
         } finally {
-            releaseResource(resultSet,statement,connection);
+            releaseResource(resultSet, statement, connection);
         }
         return things;
     }
 
     //解决内部代码大量重复问题,重构
-    private  void releaseResource(ResultSet resultSet,PreparedStatement Statement,Connection connection){
+    private void releaseResource(ResultSet resultSet, PreparedStatement Statement, Connection connection) {
         if (resultSet != null) {
             try {
                 resultSet.close();

@@ -74,7 +74,9 @@
                     <archive>
                         <manifest>
                             <!--配置主类-->
-                            <mainClass>com.github.qingmou312.everything.cmd.Everything</mainClass>
+                            <addClasspath>true</addClasspath>
+                            <classpathprefix>lib</classpathprefix>
+                            <mainClass>com.github.qingmou312.everything.cmd.EverythingCmdApp</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
