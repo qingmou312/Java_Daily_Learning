@@ -6,8 +6,9 @@ import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
 import com.github.qingmou312.everything.core.DAO.impl.FileIndexDAOImpl;
 import com.github.qingmou312.everything.core.index.FileScan;
 import com.github.qingmou312.everything.core.index.impl.FileScanImpl;
+import com.github.qingmou312.everything.core.interceptor.ThingInterceptor;
 import com.github.qingmou312.everything.core.interceptor.impl.FileIndexInterceptor;
-import com.github.qingmou312.everything.core.interceptor.impl.FilePrintInterceptor;
+import com.github.qingmou312.everything.core.interceptor.impl.ThingClearInterceptor;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.Thing;
 import com.github.qingmou312.everything.core.search.FileSearch;
@@ -18,6 +19,7 @@ import java.io.File;
 import java.util.List;
 import java.util.Set;
 import java.util.concurrent.*;
+import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 import java.util.stream.Collectors;
 
@@ -35,9 +37,17 @@ public class EverythingManager {
 
     private ExecutorService executorService;
 
+    //清理删除的文件
+    private ThingClearInterceptor thingClearInterceptor;
+
+    private Thread thingClearThread;
+
+    private AtomicBoolean thingClearThreadSatus = new AtomicBoolean(false);
+
     private EverythingManager() {
         this.initComponent();
     }
+
 
     private void initComponent() {
         //数据源对象
@@ -54,6 +64,15 @@ public class EverythingManager {
         //发布代码的时候是不需要的
 //        this.fileScan.interceptor(new FilePrintInterceptor());
         this.fileScan.interceptor(new FileIndexInterceptor(fileIndexDAO));
+
+        this.thingClearInterceptor = new ThingClearInterceptor(fileIndexDAO);
+
+        this.thingClearThread = new Thread(this.thingClearInterceptor);
+
+        this.thingClearThread.setName("Thread-Thing-Clear");
+
+        this.thingClearThread.setDaemon(true);
+
 
     }
 
@@ -92,10 +111,7 @@ public class EverythingManager {
 
             if (!flag) {
                 //做删除
-
-
-
-
+                thingClearInterceptor.apply(thing);
             }
             return flag;
         }).collect(Collectors.toList());
@@ -150,5 +166,16 @@ public class EverythingManager {
 
         System.out.println("Build index complete...");
 
+    }
+
+    /**
+     * 启动清理线程
+     */
+    public void startClearThread() {
+        if (this.thingClearThreadSatus.compareAndSet(false, true)) {
+            this.thingClearThread.start();
+        } else {
+            System.out.println("Can't repeat start startClearThread");
+        }
     }
 }

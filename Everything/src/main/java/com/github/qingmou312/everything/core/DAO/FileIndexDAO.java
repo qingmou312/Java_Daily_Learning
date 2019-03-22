@@ -14,6 +14,9 @@ public interface FileIndexDAO {
     //插入数据thing
     void insert(Thing thing);
 
+    //删除数据Thing
+    void delete(Thing thing);
+
     //根据condition条件进行数据库的检索
     List<Thing> search(Condition condition);
 

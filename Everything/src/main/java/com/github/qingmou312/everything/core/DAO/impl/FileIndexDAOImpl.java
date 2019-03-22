@@ -62,6 +62,35 @@ public class FileIndexDAOImpl implements FileIndexDAO {
     }
 
     @Override
+    public void delete(Thing thing) {
+
+
+        Connection connection = null;
+        PreparedStatement statement = null;
+        try {
+            //获取数据库的连接
+            connection = dataSource.getConnection();
+
+            //准备sql语句
+            String sql = "delete from  Everything_index where path like ' "+thing.getPath()+"%' ";
+
+            //准备命令
+            statement = connection.prepareStatement(sql);
+
+            //执行命令
+            statement.executeUpdate();
+
+
+        } catch (SQLException e) {
+            e.printStackTrace();
+
+        } finally {
+            releaseResource(null, statement, connection);
+        }
+
+    }
+
+    @Override
     public List<Thing> search(Condition condition) {
 
         Connection connection = null;

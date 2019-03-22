@@ -28,6 +28,9 @@ public class EverythingCmdApp {
         //统一调度器
         EverythingManager manager = EverythingManager.getInstance();
 
+        //启动后台清理线程
+        manager.startClearThread();
+
         //交互式
         interactive(manager);
 
