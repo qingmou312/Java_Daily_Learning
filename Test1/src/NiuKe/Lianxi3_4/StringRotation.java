@@ -1,7 +1,5 @@
 package NiuKe.Lianxi3_4;
 
-import java.util.*;
-
 
 /**
  * Author:lidan

@@ -1,7 +1,5 @@
 package NiuKe.Lianxi3_4;
 
-import java.util.*;
-
 /**
  * 对于一个矩阵，请设计一个算法，将元素按“之”字形打印。具体见样例。
  * <p>
