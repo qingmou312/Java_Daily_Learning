@@ -14,19 +14,18 @@ import java.util.Set;
 public class Page {
 
     //网页的根地址
-    private String base;
+    private final String base;
 
     //具体的网页路径
-    private String path;
+    private final String path;
 
-    //
     private DataSet dataSet;
 
     //网页的DOM对象
     private HtmlPage htmlPage;
 
     //标识网页是否是详情页
-    private boolean detail;
+    private final boolean detail;
 
     //子页面对象集合
     private Set<Page> subPage = new HashSet<>();

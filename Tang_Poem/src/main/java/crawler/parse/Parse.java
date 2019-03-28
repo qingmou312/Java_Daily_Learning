@@ -8,7 +8,7 @@ import crawler.common.Page ;
  * Created:2019/3/17
  */
 public interface Parse {
-    //解析页面
 
-    void pase(Page page);
+    //解析页面
+    void pase(final Page page);
 }

@@ -1,5 +1,8 @@
 package crawler.common;
 
+import lombok.Data;
+import lombok.ToString;
+
 import java.util.HashMap;
 import java.util.Map;
 
@@ -7,6 +10,7 @@ import java.util.Map;
  * Author:lidan
  * Created:2019/3/17
  */
+@ToString
 public class DataSet {
     /*
      * data把DOM解析,清洗之后存储的数据

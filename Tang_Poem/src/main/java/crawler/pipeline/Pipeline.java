@@ -1,6 +1,7 @@
 package crawler.pipeline;
 
-import com.gargoylesoftware.htmlunit.Page;
+
+import crawler.common.Page;
 
 /**
  * Author:lidan

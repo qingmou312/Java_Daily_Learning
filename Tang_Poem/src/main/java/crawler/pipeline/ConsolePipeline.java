@@ -1,6 +1,9 @@
 package crawler.pipeline;
 
-import com.gargoylesoftware.htmlunit.Page;
+import crawler.common.Page;
+
+import java.util.Map;
+
 
 /**
  * Author:lidan
@@ -10,6 +13,7 @@ public class ConsolePipeline implements Pipeline {
 
     @Override
     public void pipeline(Page page) {
+
 
     }
 }

@@ -17,11 +17,13 @@ public class DocumentParse implements Parse {
             return;
         }
         HtmlPage htmlPage = page.getHtmlPage();
+        //获取网页的连接
         htmlPage.getBody().getElementsByAttribute("div", "class", "typecont").forEach(div -> {
                     //a标签节点的集合
                     DomNodeList<HtmlElement> aNodeList = div.getElementsByTagName("a");
                     aNodeList.forEach(aNode -> {
-                                String path = aNode.getAttribute("href");
+                        //将取出的超链接放入到子页面对象集合中
+                                String path = aNode.getAttribute("href");//获取a标签下的属性为href的连接诶
                                 Page subPage = new Page(page.getBase(), path, true);
                                 page.getSubPage().add(subPage);
                             }
@@ -29,5 +31,4 @@ public class DocumentParse implements Parse {
                 }
         );
     }
-
 }
