@@ -5,6 +5,6 @@
 package com.github.qingmou312.everything.core;
 
 /*
- *core主要防止everything项目的核心业务(实现功能的代码)
+ *core为everything项目的核心业务(实现功能的代码)
  *
  */

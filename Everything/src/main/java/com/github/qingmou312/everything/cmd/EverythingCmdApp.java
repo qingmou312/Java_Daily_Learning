@@ -1,7 +1,6 @@
 package com.github.qingmou312.everything.cmd;
 
 import com.github.qingmou312.everything.config.EverythingConfig;
-import com.github.qingmou312.everything.core.DAO.DataSourceFactory;
 import com.github.qingmou312.everything.core.EverythingManager;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.Thing;
@@ -29,8 +28,8 @@ public class EverythingCmdApp {
         //统一调度器
         EverythingManager manager = EverythingManager.getInstance();
 
-//        //启动后台清理线程
-//        manager.startClearThread();
+        //启动后台清理线程
+        manager.startClearThread();
 
         //交互式
         interactive(manager);
@@ -39,60 +38,66 @@ public class EverythingCmdApp {
 
     private static void parseParams(String[] args) {
         EverythingConfig config = EverythingConfig.getInstance();
-        /**
-         * 如果用户指定的参数格式不对，使用默认值即可
+        /*
+         处理参数：
+         如果用户指定的参数格式不对，使用默认值即可
          */
-        for (String parm : args) {
-            String maxReturnParem = "--maxReturn=";
-            if (parm.startsWith(maxReturnParem)) {
-                int index = parm.indexOf("=");
-                String maxReturnStr = parm.substring(index + 1);
+        for (String param : args) {
+            String maxReturnParam = "--maxReturn=";
+            if (param.startsWith(maxReturnParam)) {
+                //--maxReturn=value
+                int index = param.indexOf("=");
+                String maxReturnStr = param.substring(index + 1);
                 try {
-                    config.setMaxReturn(Integer.parseInt(maxReturnStr));
+                    int maxReturn = Integer.parseInt(maxReturnStr);
+                    config.setMaxReturn(maxReturn);
                 } catch (NumberFormatException e) {
-
+                    //如果用户指定的参数格式不对，使用默认值即可
                 }
             }
-            String deptOrderByAscParem = "--deptOrderByAsc=";
-            if (parm.startsWith(deptOrderByAscParem)) {
-                int index = parm.indexOf("=");
-                String deptOrderByAscStr = parm.substring(index + 1);
+            String deptOrderByAscParam = "--deptOrderByAsc=";
+            if (param.startsWith(deptOrderByAscParam)) {
+                //--deptOrderByAsc=value
+                int index = param.indexOf("=");
+                String deptOrderByAscStr = param.substring(index + 1);
                 config.setDeptOrderAsc(Boolean.parseBoolean(deptOrderByAscStr));
+
             }
-            String includepathParem = "--includePath=";
-            if (parm.startsWith(includepathParem)) {
-                int index = parm.indexOf("=");
-                String includepathParemStr = parm.substring(index + 1);
-                String[] includePaths = includepathParemStr.split(";");
+
+            String includePathParam = "--includePath=";
+            if (param.startsWith(includePathParam)) {
+                //--includePath=values (;)
+                int index = param.indexOf("=");
+                String includePathStr = param.substring(index + 1);
+                String[] includePaths = includePathStr.split(";");
                 if (includePaths.length > 0) {
-                    EverythingConfig.getInstance().getIncludePath().clear();
+                    config.getIncludePath().clear();
                 }
                 for (String p : includePaths) {
                     config.getIncludePath().add(p);
                 }
             }
-
-            String excludePathParem = "--excludePath=";
-            if (parm.startsWith(excludePathParem)) {
-                int index = parm.indexOf("=");
-                String excludePathParemStr = parm.substring(index + 1);
-                String[] excludePaths = excludePathParemStr.split(";");
-                EverythingConfig.getInstance().getIncludePath().clear();
+            String excludePathParam = "--excludePath=";
+            if (param.startsWith(includePathParam)) {
+                //--excludePath=values (;)
+                int index = param.indexOf("=");
+                String excludePathStr = param.substring(index + 1);
+                String[] excludePaths = excludePathStr.split(";");
+                config.getExcludePath().clear();
                 for (String p : excludePaths) {
                     config.getExcludePath().add(p);
                 }
             }
         }
-
     }
 
     private static void interactive(EverythingManager manager) {
         while (true) {
-            help();
-            System.out.print("everything>>");
+            System.out.print("everything >>");
             String input = scanner.nextLine();
             //优先处理search
             if (input.startsWith("search")) {
+                //search name [file_type]
                 String[] values = input.split(" ");
                 if (values.length >= 2) {
                     if (!values[0].equals("search")) {
@@ -119,7 +124,7 @@ public class EverythingCmdApp {
                     break;
                 case "quit":
                     quit();
-                    break;
+                    return;
                 case "index":
                     index(manager);
                     break;
@@ -130,26 +135,28 @@ public class EverythingCmdApp {
     }
 
     private static void search(EverythingManager manager, Condition condition) {
-
+        //name fileType limit orderByAsc
         condition.setLimit(EverythingConfig.getInstance().getMaxReturn());
         condition.setOrderByAsc(EverythingConfig.getInstance().getDeptOrderAsc());
-         List<Thing> thingList = manager.search(condition);
+        List<Thing> thingList = manager.search(condition);
         for (Thing thing : thingList) {
             System.out.println(thing.getPath());
         }
+
     }
 
     private static void index(EverythingManager manager) {
-        DataSourceFactory.initDatabase();
-        System.out.println("Rebuild File System Index ...");
-        Thread buildIndexThread = new Thread(manager::buildIndex);
-        buildIndexThread.setDaemon(false);
-        buildIndexThread.start();
+        //统一调度器中的index
+        new Thread(manager::buildIndex).start();
     }
 
     private static void quit() {
-        System.out.println("欢迎使用，再见");
+        System.out.println("再见");
         System.exit(0);
+    }
+
+    private static void welcome() {
+        System.out.println("欢迎使用，Everything");
     }
 
     private static void help() {
@@ -158,10 +165,6 @@ public class EverythingCmdApp {
         System.out.println("帮助：help");
         System.out.println("索引：index");
         System.out.println("搜索：search <name> [<file-Type> img | doc | bin | archive | other]");
-    }
-
-    private static void welcome() {
-        System.out.println("欢迎使用，Everything");
     }
 
 }

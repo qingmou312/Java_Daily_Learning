@@ -1,6 +1,7 @@
 package com.github.qingmou312.everything.config;
 
 import lombok.Getter;
+import lombok.Setter;
 
 import java.io.File;
 import java.nio.file.FileSystem;
@@ -16,6 +17,7 @@ import java.util.Set;
 
 @Getter
 public class EverythingConfig {
+
     private static volatile EverythingConfig config;
 
     //建立索引的路径
@@ -24,7 +26,13 @@ public class EverythingConfig {
     //排除索引文件的路径
     private Set<String> excludePath = new HashSet<>();
 
-    //TODO 可配置的参数会在这里体现
+    //检索最大的返回值数量
+    @Setter
+    private Integer maxReturn = 30;
+
+    //按照深度升序的排序规则
+    @Setter
+    private Boolean deptOrderAsc = true;
 
     //H2数据库文件路径
     private String h2IndexPath = System.getProperty("user.dir") + File.separator + "Everything";

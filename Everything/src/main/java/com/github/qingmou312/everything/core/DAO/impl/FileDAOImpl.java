@@ -1,6 +1,6 @@
 package com.github.qingmou312.everything.core.DAO.impl;
 
-import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
+import com.github.qingmou312.everything.core.DAO.FileDAO;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.FileType;
 import com.github.qingmou312.everything.core.model.Thing;
@@ -14,15 +14,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 /**
+ * 使用数据库连接池实现对数据库的访问(模仿线程池)
  * Author:lidan
  * Created:2019/3/16
  */
-public class FileIndexDAOImpl implements FileIndexDAO {
+public class FileDAOImpl implements FileDAO {
 
     private final DataSource dataSource;
 
     //不想让DataSource和DataSourceFactory这两个类耦合
-    public FileIndexDAOImpl(DataSource dataSource) {
+    public FileDAOImpl(DataSource dataSource) {
         this.dataSource = dataSource;
     }
 
@@ -47,11 +48,8 @@ public class FileIndexDAOImpl implements FileIndexDAO {
             statement.setInt(3, thing.getDepth());
             statement.setString(4, thing.getFileType().name());
 
-
             //执行命令
             statement.executeUpdate();
-
-
         } catch (SQLException e) {
             e.printStackTrace();
 
@@ -72,14 +70,13 @@ public class FileIndexDAOImpl implements FileIndexDAO {
             connection = dataSource.getConnection();
 
             //准备sql语句
-            String sql = "delete from  Everything_index where path like ' "+thing.getPath()+"%' ";
+            String sql = "delete from  Everything_index where path like ' " + thing.getPath() + "%' ";
 
             //准备命令
             statement = connection.prepareStatement(sql);
 
             //执行命令
             statement.executeUpdate();
-
 
         } catch (SQLException e) {
             e.printStackTrace();
@@ -100,13 +97,6 @@ public class FileIndexDAOImpl implements FileIndexDAO {
         try {
             //获取数据库的连接
             connection = dataSource.getConnection();
-
-            //准备sql语句
-            //name :like
-            //fileType : =
-            //limit : limit offset
-            //orderByAsc : order by
-
             /**
              * 为什么没用StringBufffer?
              * 在方法的作用域,不会被多线程共享
@@ -128,7 +118,7 @@ public class FileIndexDAOImpl implements FileIndexDAO {
 
             sqlBuilder.append(" limit ").append(condition.getLimit()).append(" offset 0");
 
-            System.out.println(sqlBuilder.toString());
+//            System.out.println(sqlBuilder.toString());
 
             //准备命令
             statement = connection.prepareStatement(sqlBuilder.toString());
@@ -156,7 +146,7 @@ public class FileIndexDAOImpl implements FileIndexDAO {
         return things;
     }
 
-    //解决内部代码大量重复问题,重构
+    //重构
     private void releaseResource(ResultSet resultSet, PreparedStatement Statement, Connection connection) {
         if (resultSet != null) {
             try {

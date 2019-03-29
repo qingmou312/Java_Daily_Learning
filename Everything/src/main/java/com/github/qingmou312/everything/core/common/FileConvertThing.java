@@ -36,7 +36,7 @@ public final class FileConvertThing {
         int index = fileName.lastIndexOf(".");
         if (index != -1 && index < fileName.length() - 1) {
             String extend = fileName.substring(index + 1);
-            return FileType.lookup(extend);
+            return FileType.lookupByExtend(extend);
         } else {
             return FileType.OTHER;
         }

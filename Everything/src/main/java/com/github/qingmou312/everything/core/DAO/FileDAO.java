@@ -6,11 +6,11 @@ import com.github.qingmou312.everything.core.model.Thing;
 import java.util.List;
 
 /**
- * 关于业务层访问数据库的CRUD
+ * 业务层访问数据库
  * Author:lidan
  * Created:2019/3/16
  */
-public interface FileIndexDAO {
+public interface FileDAO {
     //插入数据thing
     void insert(Thing thing);
 

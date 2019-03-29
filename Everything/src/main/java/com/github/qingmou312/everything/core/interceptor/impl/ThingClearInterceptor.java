@@ -1,6 +1,6 @@
 package com.github.qingmou312.everything.core.interceptor.impl;
 
-import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
+import com.github.qingmou312.everything.core.DAO.FileDAO;
 import com.github.qingmou312.everything.core.interceptor.ThingInterceptor;
 import com.github.qingmou312.everything.core.model.Thing;
 
@@ -15,9 +15,9 @@ public class ThingClearInterceptor implements ThingInterceptor, Runnable {
 
     private Queue<Thing> queue = new ArrayBlockingQueue<>(1024);
 
-    private final FileIndexDAO fileIndexDAO;
+    private final FileDAO fileIndexDAO;
 
-    public ThingClearInterceptor(FileIndexDAO fileIndexDAO) {
+    public ThingClearInterceptor(FileDAO fileIndexDAO) {
         this.queue = queue;
         this.fileIndexDAO = fileIndexDAO;
     }

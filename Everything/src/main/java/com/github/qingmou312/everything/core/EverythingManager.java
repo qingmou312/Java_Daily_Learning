@@ -2,11 +2,10 @@ package com.github.qingmou312.everything.core;
 
 import com.github.qingmou312.everything.config.EverythingConfig;
 import com.github.qingmou312.everything.core.DAO.DataSourceFactory;
-import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
-import com.github.qingmou312.everything.core.DAO.impl.FileIndexDAOImpl;
+import com.github.qingmou312.everything.core.DAO.FileDAO;
+import com.github.qingmou312.everything.core.DAO.impl.FileDAOImpl;
 import com.github.qingmou312.everything.core.index.FileScan;
 import com.github.qingmou312.everything.core.index.impl.FileScanImpl;
-import com.github.qingmou312.everything.core.interceptor.ThingInterceptor;
 import com.github.qingmou312.everything.core.interceptor.impl.FileIndexInterceptor;
 import com.github.qingmou312.everything.core.interceptor.impl.ThingClearInterceptor;
 import com.github.qingmou312.everything.core.model.Condition;
@@ -27,7 +26,7 @@ import java.util.stream.Collectors;
  * Author:lidan
  * Created:2019/3/19
  */
-public class EverythingManager {
+public final class EverythingManager {
 
     private static volatile EverythingManager manager;
 
@@ -37,47 +36,45 @@ public class EverythingManager {
 
     private ExecutorService executorService;
 
-    //清理删除的文件
+    /**
+     * 清理删除的文件
+     */
     private ThingClearInterceptor thingClearInterceptor;
+    private Thread ClearThread;
+    private AtomicBoolean ClearThreadStatus = new AtomicBoolean(false);
 
-    private Thread thingClearThread;
-
-    private AtomicBoolean thingClearThreadSatus = new AtomicBoolean(false);
 
     private EverythingManager() {
         this.initComponent();
     }
 
-
     private void initComponent() {
         //数据源对象
         DataSource dataSource = DataSourceFactory.dataSource();
 
-        //检查数据库是否存在
-        checkDatabase();
+        initOrResetDatabase();
 
-        //业务层对象
-        FileIndexDAO fileIndexDAO = new FileIndexDAOImpl(dataSource);
-        this.fileSearch = new FileSearchImpl(fileIndexDAO);
+        //业务层的对象
+        FileDAO fileIndexDao = new FileDAOImpl(dataSource);
+
+        this.fileSearch = new FileSearchImpl(fileIndexDao);
 
         this.fileScan = new FileScanImpl();
         //发布代码的时候是不需要的
 //        this.fileScan.interceptor(new FilePrintInterceptor());
-        this.fileScan.interceptor(new FileIndexInterceptor(fileIndexDAO));
+        this.fileScan.interceptor(new FileIndexInterceptor(fileIndexDao));
 
-        this.thingClearInterceptor = new ThingClearInterceptor(fileIndexDAO);
+        this.thingClearInterceptor = new ThingClearInterceptor(fileIndexDao);
+        this.ClearThread = new Thread(this.thingClearInterceptor);
+        this.ClearThread.setName("Thread-Thing-Clear");
+        this.ClearThread.setDaemon(true);
+    }
 
-        this.thingClearThread = new Thread(this.thingClearInterceptor);
-
-        this.thingClearThread.setName("Thread-Thing-Clear");
-
-        this.thingClearThread.setDaemon(true);
-
-
+    public void initOrResetDatabase() {
+        DataSourceFactory.initDatabase();
     }
 
     public static EverythingManager getInstance() {
-
         if (manager == null) {
             synchronized (EverythingManager.class) {
                 if (manager == null) {
@@ -85,47 +82,38 @@ public class EverythingManager {
                 }
             }
         }
-        return null;
+        return manager;
     }
 
-    private void checkDatabase() {
-        String fileName = EverythingConfig.getInstance().getH2IndexPath() + ".mv.db";
-        File dbFile = new File(fileName);
-        if (dbFile.isFile() && !dbFile.exists()) {
-            DataSourceFactory.initDatabase();
-        }
-    }
 
-    /*
+    /**
      * 检索
-     * */
+     */
     public List<Thing> search(Condition condition) {
-        //NOTICE 扩展
+        //Stream 流式处理 JDK8
+        return this.fileSearch.search(condition)
+                .stream()
+                .filter(thing -> {
+                    String path = thing.getPath();
+                    File f = new File(path);
+                    boolean flag = f.exists();
+                    if (!flag) {
+                        //做删除
+                        thingClearInterceptor.apply(thing);
+                    }
+                    return flag;
 
-        //stream流式处理
-        return this.fileSearch.search(condition).stream().filter(thing -> {
-            String path = thing.getPath();
-            File f = new File(path);
-
-            boolean flag = f.exists();
-
-            if (!flag) {
-                //做删除
-                thingClearInterceptor.apply(thing);
-            }
-            return flag;
-        }).collect(Collectors.toList());
+                }).collect(Collectors.toList());
     }
 
     /**
      * 索引
      */
     public void buildIndex() {
+        initOrResetDatabase();
         Set<String> directories = EverythingConfig.getInstance().getIncludePath();
-
         if (this.executorService == null) {
             this.executorService = Executors.newFixedThreadPool(directories.size(), new ThreadFactory() {
-
                 private final AtomicInteger threadId = new AtomicInteger(0);
 
                 @Override
@@ -136,46 +124,34 @@ public class EverythingManager {
                 }
             });
         }
-
         final CountDownLatch countDownLatch = new CountDownLatch(directories.size());
-
-
-        System.out.println("Build index start...");
-
+        System.out.println("Build index start ....");
         for (String path : directories) {
-            this.executorService.submit(new Runnable() {
-                @Override
-                public void run() {
-                    EverythingManager.this.fileScan.index(path);
-                    //当前任务完成-1
-                    countDownLatch.countDown();
-                }
+            this.executorService.submit(() -> {
+                EverythingManager.this.fileScan.index(path);
+                //当前任务完成，值-1
+                countDownLatch.countDown();
             });
         }
-
-        /**
-         * 阻塞,直到任务完成
-         * */
+        //阻塞，直到任务完成，值0
         try {
-
             countDownLatch.await();
-
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-
-        System.out.println("Build index complete...");
-
+        System.out.println("Build index complete ...");
     }
+
 
     /**
      * 启动清理线程
      */
     public void startClearThread() {
-        if (this.thingClearThreadSatus.compareAndSet(false, true)) {
-            this.thingClearThread.start();
+        if (this.ClearThreadStatus.compareAndSet(false, true)) {
+            this.ClearThread.start();
         } else {
-            System.out.println("Can't repeat start startClearThread");
+            System.out.println("Cant repeat start ClearThread");
         }
     }
+
 }

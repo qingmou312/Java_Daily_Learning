@@ -12,8 +12,8 @@ import java.util.Set;
 public enum FileType {
     IMG("png", "jepg", "jpe", "gif", "jpg"),
     DOC("ppt", "docx", "pptx", "doc", "pdf"),
-    BIN("exe","sh","jar","msi"),
-    ARTHIVE("zip","rar"),
+    BIN("exe", "sh", "jar", "msi"),
+    ARTHIVE("zip", "rar"),
     OTHER("*");
 
     private Set<String> extend = new HashSet<>();//对应的文件类型的扩展名集合
@@ -23,19 +23,19 @@ public enum FileType {
     }
 
     //根据文件的扩展名获取文件类型
-    public static FileType lookup(String extend){
-        for(FileType fileType:FileType.values()){
-            if(fileType.extend.contains(extend)){
+    public static FileType lookupByExtend(String extend) {
+        for (FileType fileType : FileType.values()) {
+            if (fileType.extend.contains(extend)) {
                 return fileType;
             }
         }
-        return null;
+        return FileType.OTHER;
     }
 
     //根据文件类型获取文件扩展名
     public static FileType lookupByName(String name) {
-        for(FileType fileType:FileType.values()){
-            if(fileType.name().equals(name)){
+        for (FileType fileType : FileType.values()) {
+            if (fileType.name().equals(name)) {
                 return fileType;
             }
         }

@@ -17,30 +17,36 @@ import java.sql.SQLException;
  */
 public class DataSourceFactory {
     //数据源(单例)
-    private static volatile DruidDataSource dataSource;
-
+    private static volatile DruidDataSource instance;
 
     private DataSourceFactory() {
 
     }
 
     public static DataSource dataSource() {
-        if (dataSource == null) {
+        if (instance == null) {
             //多线程模式下,保证不会有线程的竞争
             synchronized (DataSourceFactory.class) {
-                if (dataSource == null) {
-                    //实例化
-                    dataSource = new DruidDataSource();
-                    dataSource.setDriverClassName("org.h2.Driver");
-                    //url,username,password
+                if (instance == null) {
+                    instance = new DruidDataSource();
+                    instance.setDriverClassName("org.h2.Driver");
                     //采用的时H2的嵌入式数据库,数据库以本地文件的方式存储,只需要提供url接口
                     //获取当前工程路径
-                    String workDir = System.getProperty("user.dir");
-                    dataSource.setUrl("jdbc:h2:" + EverythingConfig.getInstance().getH2IndexPath() );//创建数据源的时候已经创建了数据库
+                    instance.setUrl("jdbc:h2:" + EverythingConfig.getInstance().getH2IndexPath());//创建数据源的时候已经创建了数据库
+                    //第一种处理错误的方法
+                    instance.setValidationQuery("select now()");
+                    //第二种
+                    //dataSource.setTestWhileIdle(false);
+
+//                    instance.setUrl("jdbc:mysql://127.0.0.1:3306/Everything_index");
+//                    instance.setUsername("root");
+//                    instance.setPassword("123456");
+//                    instance.setDriverClassName("com.mysql.jdbc.Driver");
+
                 }
             }
         }
-        return dataSource;
+        return instance;
     }
 
     public static void initDatabase() {

@@ -1,6 +1,6 @@
 package com.github.qingmou312.everything.core.search.impl;
 
-import com.github.qingmou312.everything.core.DAO.FileIndexDAO;
+import com.github.qingmou312.everything.core.DAO.FileDAO;
 import com.github.qingmou312.everything.core.model.Condition;
 import com.github.qingmou312.everything.core.model.Thing;
 import com.github.qingmou312.everything.core.search.FileSearch;
@@ -15,9 +15,9 @@ import java.util.List;
  */
 public class FileSearchImpl implements FileSearch {
 
-    private final FileIndexDAO fileIndexDAO;
+    private final FileDAO fileIndexDAO;
 
-    public FileSearchImpl(FileIndexDAO fileIndexDAO) {
+    public FileSearchImpl(FileDAO fileIndexDAO) {
         this.fileIndexDAO = fileIndexDAO;
     }
 
