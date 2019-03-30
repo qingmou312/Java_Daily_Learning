@@ -12,6 +12,7 @@ import java.io.File;
  */
 public final class FileConvertThing {
     private FileConvertThing() {
+
     }
 
     public static Thing convert(File file) {
@@ -23,11 +24,21 @@ public final class FileConvertThing {
         return thing;
     }
 
+    /**
+     * 获取文件的深度
+     * @param file
+     * @return
+     */
     private static int computeFileDepth(File file) {
         String[] segments = file.getAbsolutePath().split("\\\\");
         return segments.length;
     }
 
+    /**
+     * 获取文件的类型
+     * @param file
+     * @return
+     */
     private static FileType computeFileType(File file) {
         if (file.isDirectory()) {
             return FileType.OTHER;

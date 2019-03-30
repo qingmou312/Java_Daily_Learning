@@ -8,6 +8,7 @@ import com.github.qingmou312.everything.core.model.Thing;
 import java.io.File;
 
 /**
+ *文件对象转换并且插入到数据库
  * Author:lidan
  * Created:2019/3/19
  */

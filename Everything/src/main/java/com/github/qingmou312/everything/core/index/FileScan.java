@@ -9,7 +9,7 @@ import com.github.qingmou312.everything.core.interceptor.FileInterceptor;
  */
 public interface FileScan {
 
-    //遍历path
+    //将指定path路径下的所有目录和文件以及子目录和文件递归扫描
     void index(String path);
 
     //遍历拦截器
