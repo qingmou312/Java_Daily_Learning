@@ -1,8 +1,10 @@
-create database if not exists Tang_Poem;
+create database if not exists tang_poem;
 
-create table Tang_Poem_info(
-    Title varchar(64),
-    Dynasty varchar(32),
-    Author varchar(32),
-    Content varchat(1024)
+use tang_poem;
+
+create table if not exists tang_poem_info(
+    Title varchar(64) not null,
+    Dynasty varchar(32) not null,
+    Author varchar(32) not null,
+    Content varchar(1024) not null
 );

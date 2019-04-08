@@ -3,26 +3,30 @@ package crawler.parse;
 
 import com.gargoylesoftware.htmlunit.html.*;
 import crawler.common.Page;
+import crawler.common.PoertyInfo;
 
 /**
- * 解析
+ * 详情页面解析
  * Author:lidan
  * Created:2019/3/17
  */
 
-    public class DataPageParse implements Parse {
+public class DataPageParse implements Parse {
 
     @Override
-    public void pase(Page page) {
+    public void parse(Page page) {
         if (!page.isDetail()) {
             return;
         }
 
         HtmlPage htmlPage = page.getHtmlPage();
+
         HtmlElement body = htmlPage.getBody();
 
-
         //标题
+        ///html/body/div[3]/div[1]/div[1]/div[1]/h1
+        //body > div.main3 > div.left > div:nth-child(1) > div.cont > h1
+
         String titlePath = "//div[@class='cont']/h1/text()";
         DomText titleDom = (DomText) body.getByXPath(titlePath).get(0);
         String title = titleDom.asText();
@@ -42,12 +46,14 @@ import crawler.common.Page;
         HtmlDivision contentDom = (HtmlDivision) body.getByXPath(contentPath).get(0);
         String content = contentDom.asText();
 
-        page.getDataSet().putData("title",title);
-        page.getDataSet().putData("dynasty",dynasty);
-        page.getDataSet().putData("author",author);
-        page.getDataSet().putData("content",content);
+        PoertyInfo poertyInfo=new PoertyInfo();
 
-        page.getDataSet().putData("url",page.getUrl());
+        poertyInfo.setTitle(title);
+        poertyInfo.setDynasty(dynasty);
+        poertyInfo.setAuthor(author);
+        poertyInfo.setContent(content);
+
+        page.getDataSet().putData("poetry",poertyInfo);
 
     }
 }

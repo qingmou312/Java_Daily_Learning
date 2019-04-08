@@ -7,6 +7,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
+ * 存储清洗的数据
  * Author:lidan
  * Created:2019/3/17
  */
@@ -31,6 +32,10 @@ public class DataSet {
 
     //获取数据的集合
     public Object getData(String key) {
-        return new HashMap<>(data);
+        return this.data.get(key);
+    }
+
+    public Map<String, Object> getData() {
+        return new HashMap<>(this.data);
     }
 }

@@ -10,5 +10,5 @@ import crawler.common.Page ;
 public interface Parse {
 
     //解析页面
-    void pase(final Page page);
+    void parse( Page page);
 }
