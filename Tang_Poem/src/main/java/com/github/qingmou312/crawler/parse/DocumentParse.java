@@ -1,11 +1,9 @@
-package crawler.parse;
+package com.github.qingmou312.crawler.parse;
 
 import com.gargoylesoftware.htmlunit.html.DomNodeList;
 import com.gargoylesoftware.htmlunit.html.HtmlElement;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import crawler.common.Page;
-
-import java.util.function.Consumer;
+import com.github.qingmou312.crawler.common.Page;
 
 /**
  * 链接解析

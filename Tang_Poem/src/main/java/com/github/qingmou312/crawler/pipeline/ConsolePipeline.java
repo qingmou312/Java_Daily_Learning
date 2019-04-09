@@ -1,6 +1,6 @@
-package crawler.pipeline;
+package com.github.qingmou312.crawler.pipeline;
 
-import crawler.common.Page;
+import com.github.qingmou312.crawler.common.Page;
 
 import java.util.Map;
 

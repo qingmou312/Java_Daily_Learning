@@ -1,4 +1,4 @@
-package config;
+package com.github.qingmou312.config;
 
 import lombok.Data;
 

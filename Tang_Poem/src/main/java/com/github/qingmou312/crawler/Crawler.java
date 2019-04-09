@@ -1,14 +1,11 @@
-package crawler;
+package com.github.qingmou312.crawler;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
-import crawler.common.Page;
-import crawler.parse.DataPageParse;
-import crawler.parse.DocumentParse;
-import crawler.parse.Parse;
-import crawler.pipeline.ConsolePipeline;
-import crawler.pipeline.Pipeline;
+import com.github.qingmou312.crawler.common.Page;
+import com.github.qingmou312.crawler.parse.Parse;
+import com.github.qingmou312.crawler.pipeline.Pipeline;
 
 import java.io.IOException;
 import java.util.Iterator;
@@ -87,80 +84,82 @@ public class Crawler {
             } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-//            this.executorService.submit(new Runnable() {
-//                final Page page = docQueue.poll();
-//                    if (page == null) {
-//                    continue;
-//                }
-//                @Override
-//                public void run() {
-//                    //从文档连接队列取出一个链接base  path detail
-//
-//                    try {
-//                        //如果Page里面的连接是存在的，对数据进行采集
-//                        HtmlPage htmlPage = webClient.getPage(page.getUrl());
-//
-//                        page.setHtmlPage(htmlPage);
-//
-//                        for (Parse parse : parseList) {
-//                            parse.parse(page);
-//                        }
-//                        /**
-//                         * 如果文件是没有超链接的就把文档放入到详情页，对数据进行清洗
-//                         * 没有的话放到采集队列继续对超链接采集
-//                         */
-//                        if (page.isDetail()) { detailQueue.add(page);
-//                        } else {
-//                            Iterator<Page> iterator = page.getSubPage().iterator();
-//                            while (iterator.hasNext()) {
-//                                Page subPage = iterator.next();
-//                                docQueue.add(subPage);
-//                                iterator.remove();
-//                            }
-//                        }
-//                    } catch (IOException e) {
-//                        e.printStackTrace();
-//                    }
-//                }
-//            });
 
-
-
-
-
-            //从文档连接队列取出一个链接base  path detail
             final Page page = this.docQueue.poll();
             if (page == null) {
                 continue;
             }
-            try {
-                //如果Page里面的连接是存在的，对数据进行采集
-                HtmlPage htmlPage = this.webClient.getPage(page.getUrl());
 
-                page.setHtmlPage(htmlPage);
+            this.executorService.submit(new Runnable() {
+                @Override
+                public void run() {
+                    //从文档连接队列取出一个链接base  path detail
 
-                for (Parse parse : this.parseList) {
-                    parse.parse(page);
-                }
-                /**
-                 * 如果文件是没有超链接的就把文档放入到详情页，对数据进行清洗
-                 * 没有的话放到采集队列继续对超链接采集
-                 */
-                if (page.isDetail()) {
-                    this.detailQueue.add(page);
-                } else {
-                    Iterator<Page> iterator = page.getSubPage().iterator();
-                    while (iterator.hasNext()) {
-                        Page subPage = iterator.next();
-                        this.docQueue.add(subPage);
-                        iterator.remove();
+                    try {
+                        //如果Page里面的连接是存在的，对数据进行采集
+                        HtmlPage htmlPage = Crawler.this.webClient.getPage(page.getUrl());
+
+                        page.setHtmlPage(htmlPage);
+
+                        for (Parse parse : parseList) {
+                            parse.parse(page);
+                        }
+                        /**
+                         * 如果文件是没有超链接的就把文档放入到详情页，对数据进行清洗
+                         * 没有的话放到采集队列继续对超链接采集
+                         */
+                        if (page.isDetail()) {
+                            Crawler.this.detailQueue.add(page);
+                        } else {
+                            Iterator<Page> iterator = page.getSubPage().iterator();
+                            while (iterator.hasNext()) {
+                                Page subPage = iterator.next();
+                                Crawler.this.docQueue.add(subPage);
+                                iterator.remove();
+                            }
+                        }
+                    } catch (IOException e) {
+                        e.printStackTrace();
                     }
                 }
-            } catch (IOException e) {
-                e.printStackTrace();
-            }
+            });
         }
     }
+
+
+//            //从文档连接队列取出一个链接base  path detail
+//            final Page page = this.docQueue.poll();
+//            if (page == null) {
+//                continue;
+//            }
+//            try {
+//                //如果Page里面的连接是存在的，对数据进行采集
+//                HtmlPage htmlPage = this.webClient.getPage(page.getUrl());
+//
+//                page.setHtmlPage(htmlPage);
+//
+//                for (Parse parse : this.parseList) {
+//                    parse.parse(page);
+//                }
+//                /**
+//                 * 如果文件是没有超链接的就把文档放入到详情页，对数据进行清洗
+//                 * 没有的话放到采集队列继续对超链接采集
+//                 */
+//                if (page.isDetail()) {
+//                    this.detailQueue.add(page);
+//                } else {
+//                    Iterator<Page> iterator = page.getSubPage().iterator();
+//                    while (iterator.hasNext()) {
+//                        Page subPage = iterator.next();
+//                        this.docQueue.add(subPage);
+//                        iterator.remove();
+//                    }
+//                }
+//            } catch (IOException e) {
+//                e.printStackTrace();
+//            }
+//        }
+//    }
 
     //清洗
     private void pipeline() {
@@ -206,24 +205,5 @@ public class Crawler {
         if (this.executorService != null && this.executorService.isShutdown()) {
             this.executorService.shutdown();
         }
-    }
-
-
-    public static void main(String[] args) throws IOException {
-        final Page page = new Page("https://so.gushiwen.org", "/gushi/tangshi.aspx", false);
-
-
-        Crawler crawler = new Crawler();
-
-        crawler.addParse(new DocumentParse());
-
-        crawler.addParse(new DataPageParse());
-
-        crawler.addPipeline(new ConsolePipeline());
-
-        crawler.addPage(page);
-
-        crawler.start();
-        crawler.stop();
     }
 }

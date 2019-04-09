@@ -1,4 +1,4 @@
-package crawler.common;
+package com.github.qingmou312.crawler.common;
 
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import lombok.Data;

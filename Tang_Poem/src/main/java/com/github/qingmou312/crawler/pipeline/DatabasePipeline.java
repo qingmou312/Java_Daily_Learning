@@ -1,7 +1,7 @@
-package crawler.pipeline;
+package com.github.qingmou312.crawler.pipeline;
 
-import crawler.common.Page;
-import crawler.common.PoertyInfo;
+import com.github.qingmou312.crawler.common.Page;
+import com.github.qingmou312.crawler.common.PoertyInfo;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
@@ -25,7 +25,8 @@ public class DatabasePipeline implements Pipeline {
     @Override
     public void pipeline(Page page) {
         PoertyInfo poetryInfo = (PoertyInfo) page.getDataSet().getData("poetry");
-        String sql = "insert into Tang_Poem_info (Title , Dynasty , Author , Content ) values (?,?,?,?)";
+
+        String sql = "insert into tang_poem_info (Title , Dynasty , Author , Content ) values (?,?,?,?)";
 
         try (Connection connection = dataSource.getConnection();
              PreparedStatement statement = connection.prepareStatement(sql);) {

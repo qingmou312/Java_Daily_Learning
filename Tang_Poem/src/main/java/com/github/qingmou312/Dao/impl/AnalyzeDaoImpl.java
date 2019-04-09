@@ -1,6 +1,6 @@
-package analyze.Dao.impl;
+package com.github.qingmou312.Dao.impl;
 
-import analyze.Dao.AnalyzeDao;
+import com.github.qingmou312.Dao.AnalyzeDao;
 
 /**
  * Author:lidan

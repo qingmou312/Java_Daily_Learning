@@ -1,9 +1,9 @@
-package crawler.parse;
+package com.github.qingmou312.crawler.parse;
 
 
 import com.gargoylesoftware.htmlunit.html.*;
-import crawler.common.Page;
-import crawler.common.PoertyInfo;
+import com.github.qingmou312.crawler.common.Page;
+import com.github.qingmou312.crawler.common.PoertyInfo;
 
 /**
  * 详情页面解析

@@ -2,4 +2,4 @@
  * Author:lidan
  * Created:2019/3/17
  */
-package config;
+package com.github.qingmou312.config;

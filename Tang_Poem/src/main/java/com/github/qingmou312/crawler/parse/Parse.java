@@ -1,7 +1,7 @@
-package crawler.parse;
+package com.github.qingmou312.crawler.parse;
 
 
-import crawler.common.Page ;
+import com.github.qingmou312.crawler.common.Page ;
 
 /**
  * Author:lidan
