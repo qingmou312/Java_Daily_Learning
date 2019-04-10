@@ -53,7 +53,7 @@ class SurfaceBookComputer implements Computer {
 class ComputerFactory {
     public static Computer getInstance(String type) {
         Computer computer = null;
-        if (type.equals("macbook")) {
+        if (type.equals(" ")) {
             computer = new MacbookProComputer();
         } else if (type.equals("surface")) {
             computer = new SurfaceBookComputer();

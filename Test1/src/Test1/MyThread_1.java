@@ -1,4 +1,4 @@
-package Thread.MyThread;
+package Test1;
 
 /**
  * Author:lidan

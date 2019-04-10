@@ -1,56 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bbee5af4-7058-4f31-b985-20f02b62be56" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Niuniu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Substr.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/抽象类和接口/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/集合类/List/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Practice/集合类/List/TestDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/cmd/EverythingCmdApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/cmd/EverythingCmdApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/config/EverythingConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/config/EverythingConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/DataSourceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/DataSourceFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/FileIndexDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/FileIndexDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/impl/FileIndexDAOImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/DAO/impl/FileIndexDAOImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/EverythingManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/EverythingManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/interceptor/impl/FileIndexInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/interceptor/impl/FileIndexInterceptor.java" afterDir="false" />
+    <list default="true" id="ebb31590-d737-4456-bd9e-4d70d26a0a54" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi4_2/IP.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test1/TestCallable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Thread/MyThread/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/zijietiaodong/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Everything/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Everything/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/common/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/common/Page.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/parse/DataPageParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/parse/DataPageParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/parse/Parse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/crawler/parse/Parse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/Dao/AnalyzeDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/Dao/impl/AnalyzeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/analyze/impl/AnalyzeDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DataPageParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DataPageParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/pipeline/DatabasePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/pipeline/DatabasePipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/resources/Tang_Poem.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_5/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_5/MaxDivision.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_7/Parenthesis.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_7/count.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_8/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_8/Transform.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_9/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Lianxi3_9/Shulie.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Printer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/Printer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/StringRotation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/NiuKe/Lianxi3_4/StringRotation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_11/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_11/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_12/LCA.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_12/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_13/BinInsert.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_13/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/MaxDivision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_5/MaxDivision.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_7/Parenthesis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_7/Parenthesis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_7/count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_7/count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_8/Transform.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_8/Transform.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_9/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_9/Shulie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_9/Shulie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Test1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Test1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread_1$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/MyThread_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Test1/Thread/MyThread/TestCallable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/MyThread/MyThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Thread/MyThread/MyThread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/MyThread/MyThread_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1/MyThread_1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Thread/MyThread/TestCallable.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -61,140 +42,8 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="Test1" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Collection.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12606">
-              <caret line="604" selection-start-line="604" selection-end-line="604" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="List.class" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/List.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ArrayList.java" pinned="false" current-in-tab="false">
-        <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3960">
-              <caret line="207" column="7" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
-              <folding>
-                <element signature="e#10398#10399#0" expanded="true" />
-                <element signature="e#10430#10431#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Practice/集合类/List/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Test.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Practice/抽象类和接口/Test.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-              <folding>
-                <element signature="e#900#901#0" expanded="true" />
-                <element signature="e#953#954#0" expanded="true" />
-                <element signature="e#981#982#0" expanded="true" />
-                <element signature="e#1032#1033#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Client.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="55" column="32" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="32" />
-              <folding>
-                <element signature="e#846#847#0" expanded="true" />
-                <element signature="e#908#909#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1059#1060#0" expanded="true" />
-                <element signature="e#1511#1512#0" expanded="true" />
-                <element signature="e#1551#1552#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/Java5/java_3_4/Test.java" />
-        <option value="$PROJECT_DIR$/src/Java5/java_3_4/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/Java5/java_3_4/Finder.java" />
-        <option value="$PROJECT_DIR$/src/Java5/java_3_4/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/MaxDivision.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_5/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_7/Parenthesis.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_7/count.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_8/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_8/Transform.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_9/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_9/Shulie.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Tencent/Main.java" />
-        <option value="$PROJECT_DIR$/src/Sort/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/Tencent/NiuQ.java" />
-        <option value="$PROJECT_DIR$/src/Tencent/XiaoQ.java" />
-        <option value="$PROJECT_DIR$/src/Tencent/Niuniu.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_10/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_11/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_12/LCA.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/BinInsert.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Lianxi3_13/Main.java" />
-        <option value="$PROJECT_DIR$/src/zijietiaodong/N.java" />
-        <option value="$PROJECT_DIR$/src/zijietiaodong/Wang.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Niuniu.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Main.java" />
-        <option value="$PROJECT_DIR$/src/Practice/集合类/List/Person.java" />
-        <option value="$PROJECT_DIR$/src/Practice/集合类/List/Test.java" />
-        <option value="$PROJECT_DIR$/src/Practice/集合类/List/TestDemo.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Substr.java" />
-        <option value="$PROJECT_DIR$/src/Practice/抽象类和接口/Test.java" />
-        <option value="$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java" />
-      </list>
-    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -203,19 +52,18 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="710" />
-    <option name="y" value="17" />
+    <option name="x" value="346" />
+    <option name="y" value="36" />
     <option name="width" value="697" />
     <option name="height" value="735" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="1" id="Add" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -233,33 +81,40 @@
               <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
+              <item name="java_3_4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Practice" type="462c0819:PsiDirectoryNode" />
-              <item name="抽象类和接口" type="462c0819:PsiDirectoryNode" />
+              <item name="Lock" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NiuKe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Test1" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="NiuKe" type="462c0819:PsiDirectoryNode" />
+              <item name="Lianxi3_4" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="HashMap&#9;PSI&#9;JAVA://java.util.HashMap&#10;list&#9;FILE&#9;jar://D:/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/List.class&#10;Collection&#9;PSI&#9;JAVA://java.util.Collection" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="E:/Bit/数据库/mysql-connector-java-5.1.46" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -273,62 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.抽象类和接口.Client" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.抽象类和接口.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NiuKe.Lianxi3_24.Main" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NiuKe.Lianxi3_24.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Niuniu" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="NiuKe.Lianxi3_19.Niuniu" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="NiuKe.Lianxi3_19.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.抽象类和接口.Test" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.抽象类和接口.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="TestDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Practice.集合类.List.TestDemo" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Practice.集合类.List.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -370,152 +170,54 @@
       <properties />
       <listeners />
     </configuration>
-    <list>
-      <item itemvalue="Application.Niuniu" />
-      <item itemvalue="Application.TestDemo" />
-      <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Client" />
-    </list>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.TestDemo" />
-        <item itemvalue="Application.TestDemo" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="bbee5af4-7058-4f31-b985-20f02b62be56" name="Default" comment="" />
-      <created>1551619672948</created>
+      <changelist id="ebb31590-d737-4456-bd9e-4d70d26a0a54" name="Default" comment="" />
+      <created>1554886504944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1551619672948</updated>
-      <workItem from="1551619681722" duration="5782000" />
-      <workItem from="1551692267889" duration="12221000" />
-      <workItem from="1551773948769" duration="13078000" />
-      <workItem from="1551965317815" duration="3583000" />
-      <workItem from="1552031812714" duration="7655000" />
-      <workItem from="1552101440314" duration="11724000" />
-      <workItem from="1552121706785" duration="225000" />
-      <workItem from="1552124820789" duration="12624000" />
-      <workItem from="1552230761522" duration="1759000" />
-      <workItem from="1552291932178" duration="3724000" />
-      <workItem from="1552307356422" duration="1569000" />
-      <workItem from="1552364784059" duration="2061000" />
-      <workItem from="1552375389708" duration="8446000" />
-      <workItem from="1552460317386" duration="4904000" />
-      <workItem from="1552465827449" duration="1463000" />
-      <workItem from="1552564589685" duration="588000" />
-      <workItem from="1552646476558" duration="141000" />
-      <workItem from="1552658636187" duration="642000" />
-      <workItem from="1552701750499" duration="6437000" />
-      <workItem from="1552787426985" duration="122000" />
-      <workItem from="1552990809773" duration="13100000" />
-      <workItem from="1553430502190" duration="2009000" />
-      <workItem from="1553586617893" duration="2322000" />
+      <updated>1554886504944</updated>
+      <workItem from="1554886508501" duration="637000" />
     </task>
-    <task id="LOCAL-00001" summary="练习">
-      <created>1551774049973</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1551774049973</updated>
-    </task>
-    <task id="LOCAL-00002" summary="练习">
-      <created>1551965421097</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1551965421097</updated>
-    </task>
-    <task id="LOCAL-00003" summary="练习">
-      <created>1552038965413</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1552038965413</updated>
-    </task>
-    <task id="LOCAL-00004" summary="练习">
-      <created>1552295128050</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1552295128051</updated>
-    </task>
-    <task id="LOCAL-00005" summary="练习">
-      <created>1552388449369</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1552388449369</updated>
-    </task>
-    <task id="LOCAL-00006" summary="练习">
-      <created>1552466606561</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1552466606561</updated>
-    </task>
-    <task id="LOCAL-00007" summary="练习">
-      <created>1552787514944</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1552787514944</updated>
-    </task>
-    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="116179000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="637000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
-      <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
-      <window_info anchor="right" id="Capture Analysis" order="3" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50075644" side_tool="true" weight="0.3207856" />
-      <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49924356" visible="true" weight="0.27168575" />
-      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3289689" />
-      <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info id="Capture Tool" order="2" />
-      <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49918166" visible="true" weight="0.15431164" />
-      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info id="Image Layers" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info id="Capture Tool" />
+      <window_info id="Designer" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info anchor="right" id="Database" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info id="UI Designer" order="2" />
-      <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info id="Favorites" order="2" sideWeight="0.5008183" side_tool="true" weight="0.26096824" />
+      <window_info id="UI Designer" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -524,490 +226,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="练习" />
-    <option name="LAST_COMMIT_MESSAGE" value="练习" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/NiuKe/Lianxi3_7/Parenthesis.java</url>
-          <line>23</line>
-          <properties />
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/NiuKe/Lianxi3_12/LCA.java</url>
-          <line>22</line>
-          <properties class="NiuKe.Lianxi3_4.Lianxi3_12.LCA" method="main">
-            <option name="EMULATED" value="true" />
-          </properties>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-      </breakpoints>
-      <breakpoints-dialog>
-        <breakpoints-dialog />
-      </breakpoints-dialog>
-      <option name="time" value="17" />
-    </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="20" selection-start-line="3" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="21" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/Test.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/QuickSort.java" />
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="9" lean-forward="true" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/java_3_4/Finder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="206">
-          <caret line="40" column="13" selection-start-line="40" selection-start-column="13" selection-end-line="40" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_7/count.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_7/Parenthesis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="20" selection-start-line="25" selection-start-column="20" selection-end-line="25" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_8/Transform.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="863" selection-start-line="863" selection-end-line="863" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_9/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_9/Shulie.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_8/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_5/MaxDivision.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/Tencent/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="30" column="17" selection-start-line="30" selection-end-line="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_10/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="23" selection-start-line="36" selection-start-column="23" selection-end-line="36" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/Niuniu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="uml://MODULES/mdl-Test1">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>MODULES</ID>
-          <OriginalElement>mdl-Test1</OriginalElement>
-          <nodes>
-            <node x="" y="">mdl-Test1</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="59.0" y="16.0" />
-          <SelectedNodes />
-          <Categories />
-          <SCOPE>All</SCOPE>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../JDBC/src/main/java/jdbc/TestJDBC.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="47" column="30" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/AbstractStringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="186">
-          <caret line="1432" column="17" selection-start-line="1432" selection-start-column="17" selection-end-line="1432" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/StringBuffer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="661" column="19" selection-start-line="661" selection-start-column="14" selection-end-line="661" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_13/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="426">
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_13/BinInsert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="13" column="5" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_11/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="36" column="24" selection-start-line="36" selection-start-column="24" selection-end-line="36" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/N.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="14" selection-end-line="39" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_12/LCA.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_12/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" selection-start-line="20" selection-end-line="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/XiaoQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Tencent/NiuQ.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="21" column="9" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/zijietiaodong/Wang.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="31" column="25" selection-start-line="31" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/StringRotation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_4/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-22">
-          <caret line="8" column="28" lean-forward="true" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Niuniu.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-572">
-          <caret line="5" column="2" selection-start-line="5" selection-start-column="2" selection-end-line="5" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_19/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="17" column="25" selection-start-line="17" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/jcf/TestList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="23" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12606">
-          <caret line="604" selection-start-line="604" selection-end-line="604" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3960">
-          <caret line="207" column="7" selection-start-line="207" selection-start-column="7" selection-end-line="207" selection-end-column="7" />
-          <folding>
-            <element signature="e#10398#10399#0" expanded="true" />
-            <element signature="e#10430#10431#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14938">
-          <caret line="679" column="15" selection-start-line="679" selection-end-line="680" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Substr.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/NiuKe/Lianxi3_24/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="19" lean-forward="true" selection-start-line="7" selection-end-line="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/集合类/List/TestDemo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/集合类/List/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/抽象类和接口/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="55" column="22" lean-forward="true" selection-start-line="55" selection-start-column="22" selection-end-line="55" selection-end-column="22" />
-          <folding>
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#953#954#0" expanded="true" />
-            <element signature="e#981#982#0" expanded="true" />
-            <element signature="e#1032#1033#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/抽象类和接口/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="55" column="32" selection-start-line="55" selection-start-column="25" selection-end-line="55" selection-end-column="32" />
-          <folding>
-            <element signature="e#846#847#0" expanded="true" />
-            <element signature="e#908#909#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1059#1060#0" expanded="true" />
-            <element signature="e#1511#1512#0" expanded="true" />
-            <element signature="e#1551#1552#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-  </component>
   <component name="masterDetails">
     <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Test1</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
       <state key="ProjectJDKs.UI">
         <settings>
           <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
           <splitter-proportions>
             <option name="proportions">
               <list>
