@@ -1,4 +1,4 @@
-package com.github.qingmou312.crawler.common;
+package com.github.qingmou312.analyze.entity;
 
 import lombok.Data;
 

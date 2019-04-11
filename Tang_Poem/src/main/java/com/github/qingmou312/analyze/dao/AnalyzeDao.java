@@ -1,4 +1,4 @@
-package com.github.qingmou312.Dao;
+package com.github.qingmou312.analyze.dao;
 
 /**
  * Author:lidan

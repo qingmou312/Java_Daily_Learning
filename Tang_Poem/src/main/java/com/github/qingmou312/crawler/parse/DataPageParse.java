@@ -3,7 +3,6 @@ package com.github.qingmou312.crawler.parse;
 
 import com.gargoylesoftware.htmlunit.html.*;
 import com.github.qingmou312.crawler.common.Page;
-import com.github.qingmou312.crawler.common.PoertyInfo;
 
 /**
  * 详情页面解析
@@ -46,14 +45,21 @@ public class DataPageParse implements Parse {
         HtmlDivision contentDom = (HtmlDivision) body.getByXPath(contentPath).get(0);
         String content = contentDom.asText();
 
-        PoertyInfo poertyInfo=new PoertyInfo();
+//        PoertyInfo poertyInfo = new PoertyInfo();
+//        poertyInfo.setTitle(title);
+//        poertyInfo.setDynasty(dynasty);
+//        poertyInfo.setAuthor(author);
+//        poertyInfo.setContent(content);
 
-        poertyInfo.setTitle(title);
-        poertyInfo.setDynasty(dynasty);
-        poertyInfo.setAuthor(author);
-        poertyInfo.setContent(content);
+//        page.getDataSet().putData("poetry", poertyInfo);
 
-        page.getDataSet().putData("poetry",poertyInfo);
+        page.getDataSet().putData("title", title);
+        page.getDataSet().putData("dynasty", dynasty);
+        page.getDataSet().putData("author", author);
+        page.getDataSet().putData("content", content);
+
+        page.getDataSet().putData("url", page.getUrl());
+
 
     }
 }

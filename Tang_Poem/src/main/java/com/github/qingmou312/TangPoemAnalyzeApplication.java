@@ -1,10 +1,13 @@
 package com.github.qingmou312;
 
 import com.alibaba.druid.pool.DruidDataSource;
+import com.github.qingmou312.config.ConfigProperties;
 import com.github.qingmou312.crawler.Crawler;
 import com.github.qingmou312.crawler.common.Page;
 import com.github.qingmou312.crawler.parse.DataPageParse;
 import com.github.qingmou312.crawler.parse.DocumentParse;
+import com.github.qingmou312.crawler.pipeline.ConsolePipeline;
+import com.github.qingmou312.crawler.pipeline.DatabasePipeline;
 
 /**
  * Author:lidan
@@ -12,7 +15,10 @@ import com.github.qingmou312.crawler.parse.DocumentParse;
  */
 public class TangPoemAnalyzeApplication {
     public static void main(String[] args) {
-        final Page page = new Page("https://so.gushiwen.org", "/gushi/tangshi.aspx", false);
+        ConfigProperties configProperties = new ConfigProperties();
+        final Page page = new Page(configProperties.getCrawlerBase(),
+                configProperties.getCrawlerPath(),
+                configProperties.isCrawlerDetail());
 
 
         Crawler crawler = new Crawler();
@@ -21,9 +27,15 @@ public class TangPoemAnalyzeApplication {
 
         crawler.addParse(new DataPageParse());
 
-//        com.github.qingmou312.crawler.addPipeline(new ConsolePipeline());
+//        crawler.addPipeline(new ConsolePipeline());
 
-//        com.github.qingmou312.crawler.addPipeline(new DatabasePipeline());
+        DruidDataSource dataSource = new DruidDataSource();
+        dataSource.setUsername(configProperties.getDbUserName());
+        dataSource.setPassword(configProperties.getDbPassword());
+        dataSource.setDriverClassName(configProperties.getDbDriverClass());
+        dataSource.setUrl(configProperties.getDburl());
+
+        crawler.addPipeline(new DatabasePipeline(dataSource));
 
         crawler.addPage(page);
 
