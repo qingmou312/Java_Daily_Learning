@@ -37,22 +37,5 @@ public class DocumentParse implements Parse {
                             );
                         }
                 );
-
-//        htmlPage.getBody()
-////                .getElementsByAttribute("div",
-////                        "class",
-////                        "typecont")
-////                .forEach(new Consumer<HtmlElement>() {
-////                    @Override
-////                    public void accept(HtmlElement htmlElement) {
-////                        DomNodeList<HtmlElement> nodeList = htmlElement.getElementsByTagName("a");
-////                        nodeList.forEach(
-////                                aNode -> {
-////                                    String path = aNode.getAttribute("href");
-////                                    System.out.println(path);
-////                                }
-////                        );
-////                    }
-////                });
     }
 }

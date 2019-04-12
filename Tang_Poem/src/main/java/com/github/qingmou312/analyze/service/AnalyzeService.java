@@ -1,16 +1,15 @@
-package com.github.qingmou312.analyze.dao;
+package com.github.qingmou312.analyze.service;
 
-import com.github.qingmou312.analyze.entity.PoertyInfo;
 import com.github.qingmou312.analyze.model.AuthorCount;
+import com.github.qingmou312.analyze.model.WordCount;
 
 import java.util.List;
 
 /**
  * Author:lidan
- * Created:2019/3/23
+ * Created:2019/4/11
  */
-public interface AnalyzeDao {
-
+public interface AnalyzeService {
     /**
      * 分析唐诗中作者的创作数量
      *
@@ -19,10 +18,9 @@ public interface AnalyzeDao {
     List<AuthorCount> analyzeAuthorCount();
 
     /**
-     * 查询所有的诗文,提供给业务层进行分析
+     * 词云分析
      *
      * @return
      */
-    List<PoertyInfo> queryAllPoetryINfo();
+    List<WordCount> analyzeWordCloud();
 }
-

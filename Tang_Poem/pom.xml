@@ -99,7 +99,7 @@
                         <mainfest>
                             <addClasspath>true</addClasspath>
                             <classpathPrefix>lib</classpathPrefix>
-                            <mainClass></mainClass>
+                            <mainClass>com.github.qingmou312.TangPoemAnalyzeApplication</mainClass>
                         </mainfest>
                     </archive>
                 </configuration>

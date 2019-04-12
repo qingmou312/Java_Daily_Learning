@@ -126,41 +126,6 @@ public class Crawler {
         }
     }
 
-
-//            //从文档连接队列取出一个链接base  path detail
-//            final Page page = this.docQueue.poll();
-//            if (page == null) {
-//                continue;
-//            }
-//            try {
-//                //如果Page里面的连接是存在的，对数据进行采集
-//                HtmlPage htmlPage = this.webClient.getPage(page.getUrl());
-//
-//                page.setHtmlPage(htmlPage);
-//
-//                for (Parse parse : this.parseList) {
-//                    parse.parse(page);
-//                }
-//                /**
-//                 * 如果文件是没有超链接的就把文档放入到详情页，对数据进行清洗
-//                 * 没有的话放到采集队列继续对超链接采集
-//                 */
-//                if (page.isDetail()) {
-//                    this.detailQueue.add(page);
-//                } else {
-//                    Iterator<Page> iterator = page.getSubPage().iterator();
-//                    while (iterator.hasNext()) {
-//                        Page subPage = iterator.next();
-//                        this.docQueue.add(subPage);
-//                        iterator.remove();
-//                    }
-//                }
-//            } catch (IOException e) {
-//                e.printStackTrace();
-//            }
-//        }
-//    }
-
     //清洗
     private void pipeline() {
         while (true) {
@@ -204,6 +169,7 @@ public class Crawler {
         //线程调度器里没有线程并且没有线程在执行就停止爬虫
         if (this.executorService != null && this.executorService.isShutdown()) {
             this.executorService.shutdown();
+            System.out.println("爬虫完成!!!");
         }
     }
 }

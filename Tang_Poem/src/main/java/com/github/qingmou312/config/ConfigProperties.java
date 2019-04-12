@@ -28,7 +28,7 @@ public class ConfigProperties {
         Properties p = new Properties();
         try {
             p.load(inputStream);
-            System.out.println(p);
+//            System.out.println(p);
         } catch (IOException e) {
             e.printStackTrace();
         }

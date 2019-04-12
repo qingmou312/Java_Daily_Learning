@@ -45,21 +45,12 @@ public class DataPageParse implements Parse {
         HtmlDivision contentDom = (HtmlDivision) body.getByXPath(contentPath).get(0);
         String content = contentDom.asText();
 
-//        PoertyInfo poertyInfo = new PoertyInfo();
-//        poertyInfo.setTitle(title);
-//        poertyInfo.setDynasty(dynasty);
-//        poertyInfo.setAuthor(author);
-//        poertyInfo.setContent(content);
-
-//        page.getDataSet().putData("poetry", poertyInfo);
 
         page.getDataSet().putData("title", title);
         page.getDataSet().putData("dynasty", dynasty);
         page.getDataSet().putData("author", author);
         page.getDataSet().putData("content", content);
-
         page.getDataSet().putData("url", page.getUrl());
-
 
     }
 }

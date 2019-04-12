@@ -24,12 +24,12 @@ public class DatabasePipeline implements Pipeline {
     @Override
     public void pipeline(Page page) {
 
+        String title = (String) page.getDataSet().getData("title");
         String dynasty = (String) page.getDataSet().getData("dynasty");
         String author = (String) page.getDataSet().getData("author");
-        String title = (String) page.getDataSet().getData("title");
         String content = (String) page.getDataSet().getData("content");
 
-        String sql = "() into tang_poem_info (title , dynasty , author , content ) values (?,?,?,?)";
+        String sql = " insert into tang_poem_info (title , dynasty , author , content ) values (?,?,?,?)";
 
         try (Connection connection = dataSource.getConnection();
 
