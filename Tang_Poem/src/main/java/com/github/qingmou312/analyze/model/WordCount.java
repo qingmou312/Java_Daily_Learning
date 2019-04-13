@@ -8,6 +8,6 @@ import lombok.Data;
  */
 @Data
 public class WordCount {
-    private String Word;
+    private String word;
     private Integer count;
 }

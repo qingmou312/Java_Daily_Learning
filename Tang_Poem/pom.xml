@@ -58,11 +58,19 @@
             <version>5.1.1</version>
         </dependency>
 
-        <!--web应用框架-->
+        <!--基于jetty嵌入式Java Web容器开发的web应用框架-->
         <dependency>
             <groupId>com.sparkjava</groupId>
             <artifactId>spark-core</artifactId>
             <version>2.3</version>
+        </dependency>
+
+
+        <!--String=>Object / Object=>String-->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.5</version>
         </dependency>
 
         <!--网页解析工具-->
@@ -73,10 +81,11 @@
             <exclusions>
                 <exclusion>
                     <groupId>org.eclipse.jetty</groupId>
-                    <artifactId>jetty_util</artifactId>
+                    <artifactId>jetty-util</artifactId>
                 </exclusion>
             </exclusions>
         </dependency>
+
 
         <!--编译时自动生成代码的库-->
         <dependency>
@@ -86,6 +95,8 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
+
+
 
     <build>
         <plugins>
@@ -105,10 +116,9 @@
                 </configuration>
             </plugin>
 
-            <!--配置依赖插件，复制程序依赖的jar包-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-dependency-tree</artifactId>
+                <artifactId>maven-dependency-plugin</artifactId>
                 <version>3.1.1</version>
                 <executions>
                     <execution>
@@ -119,6 +129,7 @@
                         <phase>package</phase>
                         <configuration>
                             <outputDirectory>${project.build.directory}/lib</outputDirectory>
+
                         </configuration>
                     </execution>
                 </executions>

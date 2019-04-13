@@ -51,7 +51,7 @@ public class Crawler {
     public Crawler() {
         this.webClient = new WebClient(BrowserVersion.CHROME);
         this.webClient.getOptions().setJavaScriptEnabled(false);
-        this.executorService = Executors.newFixedThreadPool(20, new ThreadFactory() {
+        this.executorService = Executors.newFixedThreadPool(10, new ThreadFactory() {
 
             private final AtomicInteger id = new AtomicInteger(0);
 

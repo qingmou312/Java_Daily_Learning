@@ -41,6 +41,11 @@ public class AnalyzeServiceImpl implements AnalyzeService {
         return authorCounts;
     }
 
+    /**
+     * 词云分析
+     *
+     * @return
+     */
     @Override
     public List<WordCount> analyzeWordCloud() {
         /**
@@ -65,14 +70,14 @@ public class AnalyzeServiceImpl implements AnalyzeService {
                 /**
                  * 词性的过滤
                  */
-                if (term.getNatureStr() == null || term.getNatureStr().equals("w")) {
+                if (term.getNatureStr() == null || term.getNatureStr().equals("w")||term.getNatureStr().equals("nr")) {
                     iterator.remove();
                     continue;
                 }
                 /**
                  * 词的长度的过滤
                  */
-                if (term.getNatureStr().length() < 2) {
+                if (term.getRealName().length() < 2) {
                     iterator.remove();
                     continue;
                 }
