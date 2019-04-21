@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<contact-list>
+    <contact id="001">
+        <name>张三</name>
+        <tel>123456</tel>
+        <address>西安</address>
+    </contact>
+    <contact id="002">
+        <name>李四</name>
+        <tel>10086</tel>
+        <address>咸阳</address>
+    </contact>
+</contact-list>
+
