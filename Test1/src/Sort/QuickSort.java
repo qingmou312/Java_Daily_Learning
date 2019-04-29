@@ -31,18 +31,14 @@ public class QuickSort {
             while (begin < end && arr[begin] <= pivot) {
                 begin++;
             }
-
             arr[end] = arr[begin];
 
             while (begin < end && arr[end] >= pivot) {
                 end--;
             }
-
             arr[begin] = arr[end];
         }
-
         arr[begin] = pivot;
-
         return begin;
     }
 }
