@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
+         version="4.0">
+    <servlet>
+        <servlet-name>ResponseDemo3</servlet-name>
+        <servlet-class>com.github.qingmou312.Tomcat.ResponseDemo3</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ResponseDemo3</servlet-name>
+        <url-pattern>/responseDemo3</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>LifeDemo</servlet-name>
+        <servlet-class>com.github.qingmou312.Servlet.LifeDemo</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>LifeDemo</servlet-name>
+        <url-pattern>/LifeDemo</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>ThreadServlet</servlet-name>
+        <servlet-class>com.github.qingmou312.Servlet.ThreadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ThreadServlet</servlet-name>
+        <url-pattern>/thread</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ScopeDemo1Servlet</servlet-name>
+        <servlet-class>com.github.qingmou312.Scope.ScopeDemo1Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScopeDemo1Servlet</servlet-name>
+        <url-pattern>/scope1</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>ScopeDemo2Servlet</servlet-name>
+        <servlet-class>com.github.qingmou312.Scope.ScopeDemo2Servlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>ScopeDemo2Servlet</servlet-name>
+        <url-pattern>/scope2</url-pattern>
+    </servlet-mapping>
+</web-app>
