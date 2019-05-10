@@ -45,4 +45,12 @@
         <servlet-name>ScopeDemo2Servlet</servlet-name>
         <url-pattern>/scope2</url-pattern>
     </servlet-mapping>
+    <servlet>
+        <servlet-name>RmServlet</servlet-name>
+        <servlet-class>com.github.qingmou312.cookie.rm.RmServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RmServlet</servlet-name>
+        <url-pattern>/rm</url-pattern>
+    </servlet-mapping>
 </web-app>

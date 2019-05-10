@@ -2,13 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cebddeff-72ef-4fce-a49a-d23b20bc5d38" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/PolishNotation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo1Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo2Servlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/LifeDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/ThreadServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Tomcat/ResponseDemo3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/.idea/compiler.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" afterDir="false" />
@@ -19,10 +12,7 @@
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/contact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -38,63 +28,17 @@
       <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+            <state relative-caret-position="470">
+              <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ScopeDemo1Servlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo1Servlet.java">
+      <file leaf-file-name="RmServlet.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/cookie/rm/RmServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ScopeDemo2Servlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo2Servlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PolishNotation.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PolishNotation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ThreadServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/ThreadServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="30" column="2" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LifeDemo.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/LifeDemo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="990">
-              <caret line="52" column="6" selection-start-line="52" selection-start-column="6" selection-end-line="52" selection-end-column="6" />
-              <folding>
-                <element signature="e#652#653#0" expanded="true" />
-                <element signature="e#708#709#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="316">
+              <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -137,9 +81,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/LifeDemo.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Servlet/ThreadServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo1Servlet.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo2Servlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/PolishNotation.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/github/qingmou312/cookie/rm/RmServlet.java" />
       </list>
     </option>
   </component>
@@ -229,6 +174,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="qingmou312" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="practice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="practice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="qingmou312" type="462c0819:PsiDirectoryNode" />
+              <item name="rm" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="practice" type="b2602c69:ProjectViewProjectNode" />
@@ -477,7 +431,7 @@
       <workItem from="1556535993087" duration="4420000" />
       <workItem from="1556588415777" duration="858000" />
       <workItem from="1557031120835" duration="117000" />
-      <workItem from="1557312634633" duration="595000" />
+      <workItem from="1557312634633" duration="6108000" />
     </task>
     <task id="LOCAL-00001" summary="JavaWeb练习">
       <created>1555811814472</created>
@@ -486,14 +440,22 @@
       <option name="project" value="LOCAL" />
       <updated>1555811814472</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="JavaWeb练习">
+      <created>1557313320788</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1557313320788</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56856000" />
+    <option name="totallyTimeSpent" value="62369000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -510,8 +472,8 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49099836" visible="true" weight="0.24810892" />
-      <window_info id="Web" order="7" sideWeight="0.5090016" side_tool="true" weight="0.23676248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4893617" visible="true" weight="0.24810892" />
+      <window_info id="Web" order="7" sideWeight="0.5106383" side_tool="true" weight="0.24810892" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -540,13 +502,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="JavaWeb练习" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/SAX/SAXTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="17" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/XMLRead/Dom4j_Demo2.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="572">
@@ -870,13 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/Scope/ScopeDemo1Servlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="352">
@@ -893,11 +841,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PolishNotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="21" lean-forward="true" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+        <state relative-caret-position="198">
+          <caret line="9" column="29" lean-forward="true" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="470">
+          <caret line="53" column="24" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/github/qingmou312/cookie/rm/RmServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="30" column="5" lean-forward="true" selection-start-line="30" selection-start-column="5" selection-end-line="30" selection-end-column="5" />
         </state>
       </provider>
     </entry>
