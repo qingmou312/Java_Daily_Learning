@@ -2,21 +2,71 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ebb31590-d737-4456-bd9e-4d70d26a0a54" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../Everything/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Everything/.idea/vcs.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/TangPoemAnalyzeApplication.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/dao/AnalyzeDao.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/dao/impl/AnalyzeDaoImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/entity/PoertyInfo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/model/AuthorCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/model/WordCount.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/service/AnalyzeService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/service/impl/AnalyzeServiceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/config/ConfigProperties.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/config/ObjectFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/common/DataSet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/common/Page.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DataPageParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DocumentParse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/Parse.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/pipeline/ConsolePipeline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/pipeline/DatabasePipeline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/pipeline/Pipeline.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController$JSONResponseTransformer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/config.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/database.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/css/base.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/api.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/echarts-gl.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/echarts-wordcloud.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/echarts.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/test-classes/TestHtmlUnit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/PolishNotation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/MyDefaultHandler1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/MyDefaultHandler2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/MyDefaultHandler3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/SAXDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/SAXDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/SAX/SAXTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Scope/ScopeDemo1Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Scope/ScopeDemo2Servlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Servlet/LifeDemo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Servlet/ThreadServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Tomcat/ResponseDemo3.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/XMLWrite/WriteDemo1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Xpath/XpathTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice/target/classes/com/github/qingmou312/Xpath/XpathTest2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Everything/Everything.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TangShi/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/config/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/config/ObjectFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Sort/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Sort/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../practice/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/practice.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/practice.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../practice/target/classes/contact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../practice/target/classes/contact.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -107,8 +157,8 @@
       <file leaf-file-name="Sort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="257" column="74" lean-forward="true" selection-start-line="257" selection-start-column="74" selection-end-line="257" selection-end-column="74" />
+            <state relative-caret-position="314">
+              <caret line="260" column="9" selection-start-line="258" selection-start-column="27" selection-end-line="260" selection-end-column="9" />
               <folding>
                 <element signature="e#2250#2251#0" expanded="true" />
                 <element signature="e#2288#2289#0" expanded="true" />
@@ -120,8 +170,8 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+            <state relative-caret-position="308">
+              <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -194,7 +244,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -223,8 +275,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -386,6 +436,8 @@
       <workItem from="1556273714412" duration="2028000" />
       <workItem from="1556327377534" duration="12036000" />
       <workItem from="1556358400343" duration="1238000" />
+      <workItem from="1556499464542" duration="814000" />
+      <workItem from="1557646346257" duration="613000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习">
       <created>1554887226217</created>
@@ -443,19 +495,24 @@
       <option name="project" value="LOCAL" />
       <updated>1556285976790</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="日常练习">
+      <created>1556499682843</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1556499682843</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56108000" />
+    <option name="totallyTimeSpent" value="57535000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -467,7 +524,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" weight="0.26626325" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2700454" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -477,6 +534,7 @@
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -485,34 +543,34 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.34369886" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="right" id="SciView" order="9" />
       <window_info id="Capture Tool" order="5" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3289689" />
       <window_info anchor="right" id="Maven Projects" order="8" weight="0.32980332" />
-      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26626325" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -909,15 +967,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+        <state relative-caret-position="308">
+          <caret line="14" column="19" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="257" column="74" lean-forward="true" selection-start-line="257" selection-start-column="74" selection-end-line="257" selection-end-column="74" />
+        <state relative-caret-position="314">
+          <caret line="260" column="9" selection-start-line="258" selection-start-column="27" selection-end-line="260" selection-end-column="9" />
           <folding>
             <element signature="e#2250#2251#0" expanded="true" />
             <element signature="e#2288#2289#0" expanded="true" />
