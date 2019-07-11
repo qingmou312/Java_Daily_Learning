@@ -13,7 +13,5 @@ public class Main {
         String b = in.nextLine();
         StringBuffer stringBuffera = null;
         stringBuffera.append(a);
-
     }
-
 }
