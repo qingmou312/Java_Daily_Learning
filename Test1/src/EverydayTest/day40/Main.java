@@ -28,3 +28,19 @@ public class Main {
         System.out.println(hello.Reverse(string));
     }
 }
+
+
+public class Solution {
+    public String replaceSpace(StringBuffer str) {
+        char[] chars = str.toString().toCharArray();
+        StringBuffer stringBuffer = new StringBuffer();
+        for (int i = 0; i < str.length(); i++) {
+            String tmp = String.valueOf(chars[i]);
+            if (tmp.equals(" ")) {
+                tmp = "%20";
+            }
+            stringBuffer.append(tmp);
+        }
+        return stringBuffer.toString();
+    }
+}

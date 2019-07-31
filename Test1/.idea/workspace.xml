@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0c6c80df-9f4c-45df-b37c-786d178cfb31" name="Default" comment="">
+    <list default="true" id="0c6c80df-9f4c-45df-b37c-786d178cfb31" name="Default" comment="日常练习">
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/.idea/dataSources.local.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/.idea/workspace.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/TangPoemAnalyzeApplication.class" afterDir="false" />
@@ -38,19 +38,20 @@
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/js/jquery-3.3.1.min.js" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/favicon.ico" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Tang_Poem/target/test-classes/TestHtmlUnit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/EverydayTest/day40/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/NiuKe/offer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/Everything.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/interceptor/impl/ThingClearInterceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/interceptor/impl/ThingClearInterceptor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../TangShi/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/config/ObjectFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/config/ObjectFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/config/package-info.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/web/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test2/DateFomatter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test2/DateFomatter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/EverydayTest/day40/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/EverydayTest/day40/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" afterDir="false" />
@@ -91,17 +92,29 @@
       <file leaf-file-name="Singleton.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/设计模式/单例模式/Singleton.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
+            <state relative-caret-position="418">
               <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/EverydayTest/day40/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="426">
+              <caret line="45" column="1" lean-forward="true" selection-start-line="32" selection-end-line="45" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="offer.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/NiuKe/offer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="403">
+              <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -109,7 +122,7 @@
       <file leaf-file-name="QuickSort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-410">
+            <state relative-caret-position="132">
               <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
             </state>
           </provider>
@@ -118,7 +131,7 @@
       <file leaf-file-name="Sort.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-154">
+            <state relative-caret-position="3894">
               <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
             </state>
           </provider>
@@ -127,8 +140,8 @@
       <file leaf-file-name="DateFomatter.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test2/DateFomatter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+            <state relative-caret-position="616">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
             </state>
           </provider>
         </entry>
@@ -136,7 +149,7 @@
       <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test2/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
+            <state relative-caret-position="792">
               <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
               <folding>
                 <element signature="e#238#239#0" expanded="true" />
@@ -197,6 +210,7 @@
         <option value="$PROJECT_DIR$/src/test2/Date.java" />
         <option value="$PROJECT_DIR$/src/test2/DateFomatter.java" />
         <option value="$PROJECT_DIR$/src/EverydayTest/day40/Main.java" />
+        <option value="$PROJECT_DIR$/src/NiuKe/offer.java" />
       </list>
     </option>
   </component>
@@ -220,7 +234,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
@@ -245,19 +258,13 @@
               <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="EverydayTest" type="462c0819:PsiDirectoryNode" />
-              <item name="day40" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test2" type="462c0819:PsiDirectoryNode" />
+              <item name="NiuKe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -352,7 +359,8 @@
       <workItem from="1561079653739" duration="6304000" />
       <workItem from="1562820487262" duration="1263000" />
       <workItem from="1563271947687" duration="758000" />
-      <workItem from="1563604246826" duration="2946000" />
+      <workItem from="1563604246826" duration="4680000" />
+      <workItem from="1564543453380" duration="7547000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习">
       <created>1562820774310</created>
@@ -361,44 +369,50 @@
       <option name="project" value="LOCAL" />
       <updated>1562820774310</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="日常练习">
+      <created>1563610587406</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1563610587406</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14092000" />
+    <option name="totallyTimeSpent" value="23373000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23146747" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23524962" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.24962178" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32843137" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,6 +435,81 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/设计模式/单例模式/Singleton.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3894">
+          <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test2/DateFomatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test2/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          <folding>
+            <element signature="e#238#239#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#358#359#0" expanded="true" />
+            <element signature="e#386#387#0" expanded="true" />
+            <element signature="e#425#426#0" expanded="true" />
+            <element signature="e#454#455#0" expanded="true" />
+            <element signature="e#481#482#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#567#568#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#622#623#0" expanded="true" />
+            <element signature="e#659#660#0" expanded="true" />
+            <element signature="e#686#687#0" expanded="true" />
+            <element signature="e#716#717#0" expanded="true" />
+            <element signature="e#745#746#0" expanded="true" />
+            <element signature="e#786#787#0" expanded="true" />
+            <element signature="e#817#818#0" expanded="true" />
+            <element signature="e#847#848#0" expanded="true" />
+            <element signature="e#876#877#0" expanded="true" />
+            <element signature="e#917#918#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Sort/SelectSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/EverydayTest/day40/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/设计模式/单例模式/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="418">
@@ -641,28 +730,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/设计模式/单例模式/Singleton.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
+        <state relative-caret-position="418">
           <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-154">
+        <state relative-caret-position="3894">
           <caret line="179" column="42" selection-start-line="179" selection-start-column="42" selection-end-line="179" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Sort/QuickSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-410">
+        <state relative-caret-position="132">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test2/Date.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
+        <state relative-caret-position="792">
           <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
           <folding>
             <element signature="e#238#239#0" expanded="true" />
@@ -695,15 +784,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test2/DateFomatter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="28" lean-forward="true" selection-start-line="28" selection-end-line="28" />
+        <state relative-caret-position="616">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/EverydayTest/day40/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        <state relative-caret-position="426">
+          <caret line="45" column="1" lean-forward="true" selection-start-line="32" selection-end-line="45" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/NiuKe/offer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="90" column="17" lean-forward="true" selection-start-line="90" selection-start-column="17" selection-end-line="90" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
