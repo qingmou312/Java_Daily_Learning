@@ -73,9 +73,7 @@ public final class ObjectFactory {
         crawler.addParse(new DataPageParse());
 
         if (configProperties.isEnableConsole()) {
-
             crawler.addPipeline(new ConsolePipeline());
-
         }
 
         crawler.addPipeline(new DatabasePipeline(dataSource));

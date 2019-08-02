@@ -20,6 +20,8 @@ public class DocumentParse implements Parse {
 
         HtmlPage htmlPage = page.getHtmlPage();
 
+        System.out.println(htmlPage);
+
         //获取网页的连接
         htmlPage.getBody()
                 .getElementsByAttribute("div", "class", "typecont")
@@ -31,6 +33,8 @@ public class DocumentParse implements Parse {
                                         String path = aNode.getAttribute("href");//获取a标签下的属性为href的连接
 
                                         Page subPage = new Page(page.getBase(), path, true);
+
+                                        System.out.println(subPage);
 
                                         page.getSubPage().add(subPage);
                                     }

@@ -47,21 +47,21 @@ public class TangPoemAnalyzeApplication {
 //
 //        crawler.addPipeline(new ConsolePipeline());
 //
-//        DruidDataSource dataSource = new DruidDataSource();
-//        dataSource.setUsername(configProperties.getDbUserName());
-//        dataSource.setPassword(configProperties.getDbPassword());
-//        dataSource.setDriverClassName(configProperties.getDbDriverClass());
-//        dataSource.setUrl(configProperties.getDburl());
 //
-//        crawler.addPipeline(new DatabasePipeline(dataSource));
+//
+////        DruidDataSource dataSource = new DruidDataSource();
+////        dataSource.setUsername(configProperties.getDbUserName());
+////        dataSource.setPassword(configProperties.getDbPassword());
+////        dataSource.setDriverClassName(configProperties.getDbDriverClass());
+////        dataSource.setUrl(configProperties.getDburl());
+//
+////        crawler.addPipeline(new DatabasePipeline(dataSource));
 //
 //        crawler.addPage(page);
 //
 //        crawler.start();
 //
 //        crawler.stop();
-//
-
     }
 }
 
