@@ -1,4 +1,4 @@
-package Tencent;
+package 腾讯;
 
 import java.util.Scanner;
 
