@@ -29,7 +29,7 @@ public class Main {
     }
 }
 
-//public class Main {
+//public class AscentSequence {
 //    public static void main(String[] args) {
 //        int n=20;
 //        int min=n;

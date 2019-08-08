@@ -6,7 +6,7 @@
 // * Author:lidan
 // * Created:2019/7/20
 // */
-//public class Main {
+//public class AscentSequence {
 //    public String Reverse(String sentence) {
 //        String[] str1 = sentence.split(" ");
 //        StringBuffer str2 = new StringBuffer();
@@ -22,7 +22,7 @@
 //    }
 //
 //    public static void main(String[] args) {
-//        Main hello = new Main();
+//        AscentSequence hello = new AscentSequence();
 //        Scanner in = new Scanner(System.in);
 //        String string = in.nextLine();
 //        System.out.println(hello.Reverse(string));
