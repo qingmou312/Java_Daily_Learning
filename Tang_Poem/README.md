@@ -20,11 +20,18 @@ https://so.gushiwen.org
 
 # 实现
 
-![功能实现](.\tangshi.jpg "tangshi")
+![功能实现](.\tangshi2.jpg "tangshi")
+
+# 结果展示
+## 创作数量
+![](.\创作数量.jpg)
+## 词云
+![](.\词云.jpg)
 
 # 项目扩展
 * 诗人关系分析
-* 部署到服务器上
+* 部署到tomcat服务器上
+
 
 
 
