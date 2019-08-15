@@ -9,7 +9,6 @@
 2. 了解网络爬虫
 
 # 技术
-Java基础、JDBC编程、MySQL数据库、Web服务SparkJava轻量级的web服务开发框架、网页解析工具htmlunit、中文分词
 
 # 数据来源
 https://so.gushiwen.org
@@ -20,13 +19,14 @@ https://so.gushiwen.org
 
 # 实现
 
-![功能实现](.\tangshi2.jpg "tangshi")
+![功能实现](.\tangshi2.jpg "taJava基础、JDBC编程、MySQL数据库、Web服务SparkJava轻量级的web服务开发框架、网页解析工具htmlunit、中文分词
+ngshi")
 
 # 结果展示
 ## 创作数量
-![](.\创作数量.jpg)
+![创作数量](.\创作数量.jpg)
 ## 词云
-![](.\词云.jpg)
+![词云](.\词云.jpg)
 
 # 项目扩展
 * 诗人关系分析
