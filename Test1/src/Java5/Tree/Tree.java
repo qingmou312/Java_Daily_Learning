@@ -49,14 +49,15 @@ public class Tree {
 //
 //
 //    }
+//
+//    private int find(char[] inorder, char rootValue) {
+//        int i = 0;
+//        for (i = 0; i < inorder.length; i++) {
+//            if (inorder[i] == rootValue) {
+//                return i;
+//            }
+//        }
+//        return -1;
+//    }
 
-    private int find(char[] inorder, char rootValue) {
-        int i = 0;
-        for (i = 0; i < inorder.length; i++) {
-            if (inorder[i] == rootValue) {
-                return i;
-            }
-        }
-        return -1;
-    }
 }

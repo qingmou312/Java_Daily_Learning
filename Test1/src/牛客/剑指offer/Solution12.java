@@ -14,7 +14,6 @@ package 牛客.剑指offer;
 class ListNode {
     int val;
     ListNode next = null;
-
     ListNode(int val) {
         this.val = val;
     }
