@@ -1,7 +1,7 @@
 package Java5.Tree;
 
 
-import java.util.Arrays;
+import java.util.*;
 
 /**
  * Author:lidan
@@ -10,7 +10,7 @@ import java.util.Arrays;
 public class Tree {
     public class Node {
         public Node node;
-        char value;
+        Integer value;
         public Node left;
         public Node right;
 
@@ -60,4 +60,93 @@ public class Tree {
 //        return -1;
 //    }
 
+    //二叉树的前序遍历
+    List<Integer> preOrder(Node root) {
+        if (root == null) {
+            return new ArrayList<>();
+        }
+        List<Integer> list = new ArrayList<>();
+        list.add(root.value);
+        List<Integer> left = preOrder(root.left);
+        List<Integer> right = preOrder(root.right);
+
+        list.addAll(left);
+        list.addAll(right);
+        return list;
+    }
+
+    //求二叉树节点个数
+    int node(Node root) {
+        if (root == null) {
+            return 0;
+        }
+        int left = node(root.left);
+        int right = node(root.right);
+        return left + right + 1;
+    }
+
+//    //求二叉树的高度
+//    int height(Node root) {
+//        if (root == null) {
+//            return 0;
+//        }
+//        int left = node(root.left);
+//        int right = node(root.right);
+//    }
+
+    //求第K层节点的个数
+    int kLevel(Node root, int k) {
+        if (root == null) {
+            return 0;
+        }
+        if (k == 1) {
+            return 1;
+        }
+        int left = kLevel(root.left, k - 1);
+        int right = kLevel(root.right, k - 1);
+        return left + right;
+    }
+
+
+    //层序遍历
+    void levelOrder(Node root) {
+        if (root == null) {
+            return;
+        }
+
+        Queue<Node> queue = new LinkedList<>();
+        queue.add(root);
+
+        while (!queue.isEmpty()) {
+            Node front = queue.poll();
+            System.out.println(front.value);
+            if (front.left != null) {
+                queue.add(front.left);
+            }
+            if (front.right != null) {
+                queue.add(front.right);
+            }
+        }
+    }
+
+    //中序和后序创建二叉树
+    Node buildTree(List<Integer> in, List<Integer> post) {
+        int rootValue = post.get(post.size() - 1);
+
+        //左子树的节点个数
+        int left = in.indexOf(rootValue);
+
+        List<Integer> leftIn = in.subList(0, left);
+        List<Integer> leftPost = post.subList(0, left);
+
+        List<Integer> rightIn = in.subList(left + 1, in.size());
+        List<Integer> rightPost = post.subList(left + 1, in.size());
+
+        Node root = new Node();
+        root.value = rootValue;
+        root.left = buildTree(leftIn, leftPost);
+        root.right = buildTree(rightIn, rightPost);
+
+        return root;
+    }
 }

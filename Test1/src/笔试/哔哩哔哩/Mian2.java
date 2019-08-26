@@ -1,5 +1,7 @@
 package 笔试.哔哩哔哩;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.Scanner;
 
 /**
@@ -10,9 +12,8 @@ import java.util.Scanner;
 public class Mian2 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        Integer a = Integer.valueOf(in.next());
-        Integer b = Integer.valueOf(in.next());
-        int c = a * b;
-        System.out.println(c);
+        BigInteger a = new BigInteger(in.next());
+        BigInteger b = new BigInteger(in.next());
+        System.out.println(a.multiply(b));
     }
 }
