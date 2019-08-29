@@ -70,7 +70,9 @@ public class AnalyzeServiceImpl implements AnalyzeService {
                 /**
                  * 词性的过滤
                  */
-                if (term.getNatureStr() == null || term.getNatureStr().equals("w")||term.getNatureStr().equals("nr")) {
+                if (term.getNatureStr() == null ||
+                        term.getNatureStr().equals("w")||
+                        term.getNatureStr().equals("nr")) {
                     iterator.remove();
                     continue;
                 }

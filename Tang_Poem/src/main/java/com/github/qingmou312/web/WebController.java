@@ -20,7 +20,7 @@ public class WebController {
 
     private final AnalyzeService analyzeService;
 
-    public WebController(AnalyzeService analyzeService) {
+    public  WebController(AnalyzeService analyzeService) {
         this.analyzeService = analyzeService;
     }
 
@@ -48,7 +48,6 @@ public class WebController {
     }
 
     public static class JSONResponseTransformer implements ResponseTransformer {
-
         private Gson gson = new Gson();
 
         @Override

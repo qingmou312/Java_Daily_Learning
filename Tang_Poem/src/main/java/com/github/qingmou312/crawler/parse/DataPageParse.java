@@ -25,7 +25,6 @@ public class DataPageParse implements Parse {
         //标题
         ///html/body/div[3]/div[1]/div[1]/div[1]/h1
         //body > div.main3 > div.left > div:nth-child(1) > div.cont > h1
-
         String titlePath = "//div[@class='cont']/h1/text()";
         DomText titleDom = (DomText) body.getByXPath(titlePath).get(0);
         String title = titleDom.asText();

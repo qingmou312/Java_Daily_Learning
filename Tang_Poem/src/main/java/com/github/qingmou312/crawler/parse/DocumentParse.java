@@ -11,6 +11,8 @@ import com.github.qingmou312.crawler.common.Page;
  * Created:2019/3/17
  */
 public class DocumentParse implements Parse {
+    int count = 0;
+
     @Override
     public void parse(Page page) {
 
@@ -34,12 +36,14 @@ public class DocumentParse implements Parse {
 
                                         Page subPage = new Page(page.getBase(), path, true);
 
-                                        System.out.println(subPage);
-
+//                                        System.out.println(subPage);
+//                                        count++;//记录爬取的链接数量
+//                                System.out.println(count);
                                         page.getSubPage().add(subPage);
                                     }
                             );
                         }
                 );
     }
+
 }

@@ -9,6 +9,12 @@
 2. 了解网络爬虫
 
 # 技术
+* Java基础
+* JDBC
+* htmlUnit — 网页解析工具
+* Ansj — 文本分词和解析
+* Sparkjava — web容器
+* Druid — 数据库连接池
 
 # 数据来源
 https://so.gushiwen.org
@@ -19,8 +25,8 @@ https://so.gushiwen.org
 
 # 实现
 
-![功能实现](.\tangshi2.jpg "taJava基础、JDBC编程、MySQL数据库、Web服务SparkJava轻量级的web服务开发框架、网页解析工具htmlunit、中文分词
-ngshi")
+![功能实现](.\tangshi2.jpg )
+Java基础、JDBC编程、MySQL数据库、Web服务SparkJava轻量级的web服务开发框架、网页解析工具htmlunit、中文分词
 
 # 结果展示
 ## 创作数量

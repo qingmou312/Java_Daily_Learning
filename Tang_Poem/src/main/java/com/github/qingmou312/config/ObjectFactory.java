@@ -24,6 +24,7 @@ import java.util.Map;
  */
 public final class ObjectFactory {
 
+    //饿汉式
     private static final ObjectFactory instance = new ObjectFactory();
 
     /**
@@ -46,6 +47,10 @@ public final class ObjectFactory {
 
         //5.对象清单打印输出
         printObjectList();
+    }
+
+    public static ObjectFactory getInstance() {
+        return instance;
     }
 
     private void initWebController() {
@@ -104,10 +109,6 @@ public final class ObjectFactory {
             throw new IllegalArgumentException("Class " + classz.getName() + " not found Object");
         }
         return (T) objectHashMap.get(classz);
-    }
-
-    public static ObjectFactory getInstance() {
-        return instance;
     }
 
     private void printObjectList() {

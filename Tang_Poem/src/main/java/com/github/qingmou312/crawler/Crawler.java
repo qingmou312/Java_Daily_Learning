@@ -71,7 +71,6 @@ public class Crawler {
         //清洗
 
         this.executorService.submit(this::parse);
-
         this.executorService.submit(this::pipeline);
 
     }

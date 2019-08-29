@@ -44,13 +44,12 @@
             <version>5.1.47</version>
         </dependency>
 
-        <!--配置数据库连接池-->
+        <!--数据库连接池-->
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>druid</artifactId>
             <version>1.1.13</version>
         </dependency>
-
         <!--文本分词中文-->
         <dependency>
             <groupId>org.ansj</groupId>
@@ -95,7 +94,6 @@
             <scope>provided</scope>
         </dependency>
     </dependencies>
-
 
 
     <build>

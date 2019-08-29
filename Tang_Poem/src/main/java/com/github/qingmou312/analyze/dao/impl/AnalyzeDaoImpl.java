@@ -46,7 +46,6 @@ public class AnalyzeDaoImpl implements AnalyzeDao {
         } catch (SQLException e) {
             e.printStackTrace();
         }
-
         return authorCounts;
     }
 
