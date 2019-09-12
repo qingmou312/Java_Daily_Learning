@@ -2,11 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c6c80df-9f4c-45df-b37c-786d178cfb31" name="Default" comment="日常练习">
-      <change afterPath="$PROJECT_DIR$/src/Test1/heh.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试/滴滴/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/笔试/滴滴/并查集岛屿问题/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test1/haha.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/CVTE/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/VIPkid/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/VIPkid/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/奇安信/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/奇虎360/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/奇虎360/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/字节跳动/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/小米/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/小米/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/广联达/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/搜狗/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/滴滴/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/滴滴/Main4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/科大讯飞/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/科大讯飞/Mian3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/米哈游/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/美团/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/美团/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/腾讯/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/途家/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/道通科技/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/道通科技/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/笔试/道通科技/Main3.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../http/src/main/java/xml解析/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../http/src/main/resources/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/cmd/EverythingCmdApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/cmd/EverythingCmdApp.java" afterDir="false" />
@@ -16,24 +36,24 @@
       <change beforePath="$PROJECT_DIR$/../Everything/src/main/java/com/github/qingmou312/everything/core/package-info.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../TangShi/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/TangPoemAnalyzeApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/analyze/dao/impl/AnalyzeDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/analyze/dao/impl/AnalyzeDaoImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/analyze/service/impl/AnalyzeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/analyze/service/impl/AnalyzeServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/Crawler.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/Crawler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DataPageParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DataPageParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/parse/DocumentParse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/pipeline/ConsolePipeline.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/pipeline/ConsolePipeline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/common/Page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/crawler/common/Page.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/web/WebController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/src/main/java/com/github/qingmou312/web/WebController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/src/main/resources/static/assets/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/../http/src/main/resources/web.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/TangPoemAnalyzeApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/TangPoemAnalyzeApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/dao/impl/AnalyzeDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/dao/impl/AnalyzeDaoImpl.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/service/impl/AnalyzeServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/analyze/service/impl/AnalyzeServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/Crawler.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DataPageParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DataPageParse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DocumentParse.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/parse/DocumentParse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/pipeline/ConsolePipeline.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/crawler/pipeline/ConsolePipeline.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController$JSONResponseTransformer.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController$JSONResponseTransformer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/config/ObjectFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/config/ObjectFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Tang_Poem/target/classes/com/github/qingmou312/web/WebController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Tang_Poem/target/classes/static/assets/css/base.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test1/heh.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test1/heh.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/排序/Sort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/排序/Sort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/笔试/奇虎360/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/笔试/奇虎360/Main2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/.idea/vcs.xml" afterDir="false" />
@@ -41,8 +61,6 @@
       <change beforePath="$PROJECT_DIR$/../chat-room/chat-room-server/src/main/java/Multi/JDBC.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/chat-room-server/src/main/java/Multi/JDBC.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat-room/chat-room-server/target/classes/Multi/JDBC.class" beforeDir="false" afterPath="$PROJECT_DIR$/../chat-room/chat-room-server/target/classes/Multi/JDBC.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/server/MultiThreadServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/server/MultiThreadServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/util/CommUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/util/CommUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/vo/MessageVO.java" beforeDir="false" afterPath="$PROJECT_DIR$/../chat_room_plus/src/main/java/com/github/qingmou312/vo/MessageVO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../http/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../http/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../http/src/main/java/Main.java" afterDir="false" />
@@ -77,22 +95,34 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Test1" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Main2.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/笔试/滴滴/并查集岛屿问题/Main2.java">
+        <entry file="file://$PROJECT_DIR$/src/笔试/道通科技/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
+            <state relative-caret-position="1188">
+              <caret line="54" selection-start-line="54" selection-end-line="54" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="heh.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Test1/heh.java">
+      <file leaf-file-name="Main3.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/笔试/道通科技/Main3.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="902">
-              <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
+            <state relative-caret-position="858">
+              <caret line="39" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/笔试/美团/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="14" column="30" selection-end-line="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -100,14 +130,77 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main2.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/笔试/滴滴/Main2.java">
+      <file leaf-file-name="AscentSequence.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/AscentSequence.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            <state relative-caret-position="220">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LCS.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/LCS.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="264">
+              <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/笔试/美团/Main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="17" column="29" selection-start-line="17" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/笔试/小米/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="206">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main1.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Main1.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="14" column="17" selection-end-line="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mian3.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Mian3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="814">
+              <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
+              <folding>
+                <marker date="1568260722963" expanded="true" signature="924:949" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LongestSubstring.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/LongestSubstring.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="462">
+              <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -117,6 +210,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -127,35 +221,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution4.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution5.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution6.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution7.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution8.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution9.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution10.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/Mixture.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/AscentSequence.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/LCS.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/LongestSubstring.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/动态规划/MinCost.java" />
-        <option value="$PROJECT_DIR$/src/东方财富/Main.java" />
-        <option value="$PROJECT_DIR$/src/大疆/NumberFormatTest.java" />
-        <option value="$PROJECT_DIR$/src/大疆/Main.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution11.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution13.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution12.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/剑指offer/Solution14.java" />
-        <option value="$PROJECT_DIR$/src/NiuKe/字符串中连续最长的数字串/Main.java" />
-        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main.java" />
-        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main2.java" />
-        <option value="$PROJECT_DIR$/src/排序/SelectSort.java" />
-        <option value="$PROJECT_DIR$/src/排序/QuickSort.java" />
-        <option value="$PROJECT_DIR$/src/Java5/java_3_4/Finder.java" />
-        <option value="$PROJECT_DIR$/src/Java5/Sort.java" />
-        <option value="$PROJECT_DIR$/src/java/util/Comparator.java" />
-        <option value="$PROJECT_DIR$/src/每日一题/Main.java" />
         <option value="$PROJECT_DIR$/src/笔试/科大讯飞/Main2.java" />
         <option value="$PROJECT_DIR$/src/牛客/字符串中连续最长的数字串/Main.java" />
         <option value="$PROJECT_DIR$/src/笔试/科大讯飞/Main.java" />
@@ -167,7 +232,6 @@
         <option value="$PROJECT_DIR$/src/笔试/哔哩哔哩/Main3.java" />
         <option value="$PROJECT_DIR$/src/笔试/京东/Main.java" />
         <option value="$PROJECT_DIR$/src/Java5/Tree/Tree.java" />
-        <option value="$PROJECT_DIR$/src/排序/Sort.java" />
         <option value="$PROJECT_DIR$/src/笔试/京东/Main3.java" />
         <option value="$PROJECT_DIR$/src/笔试/京东/Main2.java" />
         <option value="$PROJECT_DIR$/src/Test1/ArithTest.java" />
@@ -176,8 +240,38 @@
         <option value="$PROJECT_DIR$/src/力扣/Solution.java" />
         <option value="$PROJECT_DIR$/src/笔试/滴滴/Main.java" />
         <option value="$PROJECT_DIR$/src/笔试/滴滴/并查集岛屿问题/Main2.java" />
-        <option value="$PROJECT_DIR$/src/Test1/heh.java" />
         <option value="$PROJECT_DIR$/src/笔试/滴滴/Main2.java" />
+        <option value="$PROJECT_DIR$/src/Test1/heh.java" />
+        <option value="$PROJECT_DIR$/src/笔试/滴滴/Main3.java" />
+        <option value="$PROJECT_DIR$/src/笔试/滴滴/Main4.java" />
+        <option value="$PROJECT_DIR$/src/Test1/haha.java" />
+        <option value="$PROJECT_DIR$/src/笔试/CVTE/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main2.java" />
+        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main3.java" />
+        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main5.java" />
+        <option value="$PROJECT_DIR$/src/笔试/奇虎360/Main4.java" />
+        <option value="$PROJECT_DIR$/src/笔试/腾讯/Main1.java" />
+        <option value="$PROJECT_DIR$/src/排序/Sort.java" />
+        <option value="$PROJECT_DIR$/src/牛客/剑指offer/Solution6.java" />
+        <option value="$PROJECT_DIR$/src/笔试/VIPkid/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/VIPkid/Main1.java" />
+        <option value="$PROJECT_DIR$/src/牛客/剑指offer/offer.java" />
+        <option value="$PROJECT_DIR$/src/笔试/途家/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/米哈游/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/搜狗/main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/搜狗/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/字节跳动/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/奇安信/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/广联达/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/道通科技/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/道通科技/Main2.java" />
+        <option value="$PROJECT_DIR$/src/笔试/道通科技/Main3.java" />
+        <option value="$PROJECT_DIR$/src/笔试/美团/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/美团/Main1.java" />
+        <option value="$PROJECT_DIR$/src/笔试/小米/Main.java" />
+        <option value="$PROJECT_DIR$/src/笔试/小米/Main1.java" />
+        <option value="$PROJECT_DIR$/src/笔试/科大讯飞/Main1.java" />
+        <option value="$PROJECT_DIR$/src/笔试/科大讯飞/Mian3.java" />
       </list>
     </option>
   </component>
@@ -201,9 +295,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -216,32 +307,23 @@
               <item name="Test1" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="笔试" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Test1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Test1" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="笔试" type="462c0819:PsiDirectoryNode" />
-              <item name="滴滴" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://E:/github/Java_Daily_Learning/Test1/src/笔试/滴滴/并查集岛屿问题/Main2.java&#10;comparato&#9;PSI&#9;JAVA://java.util.Comparator&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Arr&#9;FILE&#9;jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java&#10;Arrays&#9;null&#9;null&#10;bufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;开根号&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="Concurr&#9;PSI&#9;JAVA://java.util.concurrent.ConcurrentHashMap&#10;Objects&#9;PSI&#9;JAVA://java.util.Objects&#10;H&#9;FILE&#9;jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java&#10;HashMap&#9;null&#9;null&#10;ArrayList&#9;PSI&#9;JAVA://java.util.ArrayList&#10;hash&#9;FILE&#9;jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/HashMap.java&#10;hashMap&#9;null&#9;null&#10;comparato&#9;PSI&#9;JAVA://java.util.Comparator&#10;Comparable&#9;PSI&#9;JAVA://java.lang.Comparable&#10;Arr&#9;FILE&#9;jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Arrays.java&#10;Arrays&#9;null&#9;null&#10;bufferRe&#9;PSI&#9;JAVA://java.io.BufferedReader&#10;开根号&#9;null&#9;null" />
+    <property name="ToolWindowStructure.ShowToolbar" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -263,86 +345,64 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.heh">
-    <configuration name="ArithTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1.ArithTest" />
+  <component name="RunManager" selected="Application.Mian3">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试.美团.Main" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Test1.*" />
+          <option name="PATTERN" value="笔试.美团.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main2 (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试.滴滴.并查集岛屿问题.Main2" />
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试.小米.Main" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="笔试.滴滴.并查集岛屿问题.*" />
+          <option name="PATTERN" value="笔试.小米.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试.京东.Main2" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试.小米.Main1" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="笔试.京东.*" />
+          <option name="PATTERN" value="笔试.小米.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试.滴滴.Main" />
+    <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试.道通科技.Main3" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="笔试.滴滴.并查集岛屿问题.*" />
+          <option name="PATTERN" value="笔试.道通科技.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试.网易.测试开发2019.Main" />
+    <configuration name="Mian3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="笔试.科大讯飞.Mian3" />
       <module name="Test1" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="笔试.网易.测试开发2019.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="笔试.大疆.Main" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="笔试.大疆.*" />
+          <option name="PATTERN" value="笔试.科大讯飞.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="heh" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1.heh" />
-      <module name="Test1" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Test1.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -383,24 +443,26 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
       <item itemvalue="Application.Main (1)" />
-      <item itemvalue="Application.ArithTest" />
-      <item itemvalue="Application.heh" />
-      <item itemvalue="Application.Main2 (1)" />
+      <item itemvalue="Application.Main (2)" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Mian3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.heh" />
-        <item itemvalue="Application.Main2 (1)" />
+        <item itemvalue="Application.Mian3" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.Main (2)" />
         <item itemvalue="Application.Main (1)" />
-        <item itemvalue="Application.ArithTest" />
-        <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main3" />
       </list>
     </recent_temporary>
   </component>
   <component name="StructureViewFactory">
-    <option name="ACTIVE_ACTIONS" value=",SHOW_INHERITED,SHOW_NON_PUBLIC,SHOW_FIELDS,SHOW_ANONYMOUS" />
+    <option name="AUTOSCROLL_MODE" value="false" />
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
+    <option name="ACTIVE_ACTIONS" value=",SHOW_ANONYMOUS,SHOW_NON_PUBLIC,SHOW_LAMBDA,SHOW_INHERITED" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -442,7 +504,29 @@
       <workItem from="1566644269728" duration="6000" />
       <workItem from="1566646242507" duration="4989000" />
       <workItem from="1566694054766" duration="705000" />
-      <workItem from="1566780995786" duration="24226000" />
+      <workItem from="1566780995786" duration="24290000" />
+      <workItem from="1566867911490" duration="565000" />
+      <workItem from="1566887860450" duration="7958000" />
+      <workItem from="1566961299082" duration="1618000" />
+      <workItem from="1567044885885" duration="1794000" />
+      <workItem from="1567162177037" duration="1039000" />
+      <workItem from="1567171751362" duration="465000" />
+      <workItem from="1567218342197" duration="12792000" />
+      <workItem from="1567322119226" duration="7121000" />
+      <workItem from="1567477908528" duration="1400000" />
+      <workItem from="1567497579898" duration="7305000" />
+      <workItem from="1567561103572" duration="905000" />
+      <workItem from="1567727904456" duration="1050000" />
+      <workItem from="1567778409035" duration="2138000" />
+      <workItem from="1567827959043" duration="2191000" />
+      <workItem from="1567930931537" duration="8695000" />
+      <workItem from="1567990878525" duration="589000" />
+      <workItem from="1568026755656" duration="3809000" />
+      <workItem from="1568076533675" duration="4622000" />
+      <workItem from="1568081351975" duration="5250000" />
+      <workItem from="1568169033887" duration="5985000" />
+      <workItem from="1568201480500" duration="2757000" />
+      <workItem from="1568250203628" duration="3826000" />
     </task>
     <task id="LOCAL-00001" summary="日常练习">
       <created>1562820774310</created>
@@ -528,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1566800697644</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="日常练习">
+      <created>1566820064818</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1566820064818</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214660000" />
+    <option name="totallyTimeSpent" value="298598000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -550,29 +641,30 @@
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3289689" />
       <window_info anchor="bottom" id="Messages" order="7" weight="0.3289689" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
-      <window_info id="Image Layers" order="2" />
+      <window_info id="Image Layers" order="0" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32843137" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.32843137" />
       <window_info anchor="right" id="Maven Projects" order="5" />
-      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24386252" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3289689" />
+      <window_info id="Capture Tool" order="1" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.6579378" visible="true" weight="0.21558245" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" sideWeight="0.114893615" visible="true" weight="0.19515885" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" sideWeight="0.3420622" side_tool="true" weight="0.21558245" />
+      <window_info x="545" y="124" width="418" height="452" id="Structure" order="4" sideWeight="0.8851064" side_tool="true" weight="0.24810892" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.24962178" />
-      <window_info id="UI Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
       <window_info anchor="right" id="Theme Preview" order="7" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Favorites" order="5" side_tool="true" weight="0.32980332" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.8445172" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Thumbnails" order="11" weight="0.3289689" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32569557" />
     </layout>
   </component>
@@ -599,7 +691,7 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="15" />
+      <option name="time" value="18" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -607,164 +699,248 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Comparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1736">
-          <caret line="102" column="23" lean-forward="true" selection-start-line="102" selection-start-column="23" selection-end-line="102" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Practice/集合类/List/Test.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-88">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/每日一题/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="207" column="8" selection-start-line="207" selection-start-column="8" selection-end-line="207" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/快手/Jiajian.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/快手/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="17" column="3" selection-start-line="17" selection-start-column="3" selection-end-line="17" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution4.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution9.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="13" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="25" column="6" selection-start-line="25" selection-start-column="6" selection-end-line="25" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/MinCost.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/Mixture.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/腾讯/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="31" column="7" selection-start-line="31" selection-start-column="7" selection-end-line="31" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/设计模式/单例模式/Singleton.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/lang/NumberFormatException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="814">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/商汤/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution6.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution7.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="308">
+          <caret line="14" column="17" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution8.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="27" selection-start-line="19" selection-start-column="27" selection-end-line="19" selection-end-column="27" />
+        <state relative-caret-position="242">
+          <caret line="13" column="15" lean-forward="true" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution9.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-80">
+          <caret line="9" column="15" lean-forward="true" selection-end-line="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution10.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="264">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution11.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/MinCost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/Mixture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/字符串中连续最长的数字串/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="23" column="12" lean-forward="true" selection-end-line="46" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/VIPkid/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/东方财富/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/CVTE/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/CVTE/Copy.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/VIPkid/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="17" column="44" selection-start-line="17" selection-start-column="44" selection-end-line="18" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-422">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-36">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Mian2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/商汤/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="194">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/大疆/NumberFormatTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-344">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/大疆/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="792">
+          <caret line="36" column="41" selection-end-line="38" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/腾讯/Niuniu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/每日一题/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="38" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/力扣/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Test1/ArithTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="88">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Practice/集合类/List/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java5/Heap/Heap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/途家/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/腾讯/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="814">
+          <caret line="38" column="16" selection-start-line="38" selection-start-column="16" selection-end-line="38" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/米哈游/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java5/Tree/Tree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="142">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/搜狗/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/字节跳动/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="32" column="45" selection-start-line="32" selection-start-column="45" selection-end-line="32" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution13.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="15" column="7" lean-forward="true" selection-end-line="39" />
         </state>
       </provider>
     </entry>
@@ -775,212 +951,125 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/广联达/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution12.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution11.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/奇安信/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        <state relative-caret-position="264">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution13.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/道通科技/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-190">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+        <state relative-caret-position="264">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/list.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/道通科技/Main2.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
+        <state relative-caret-position="1188">
+          <caret line="54" selection-start-line="54" selection-end-line="54" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/util/Scanner.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/道通科技/Main3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="2122" selection-start-line="2122" selection-end-line="2122" />
+        <state relative-caret-position="858">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/美团/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="14" column="30" selection-end-line="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/AscentSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="682">
-          <caret line="31" column="16" selection-start-line="31" selection-start-column="16" selection-end-line="31" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/LCS.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/字符串中连续最长的数字串/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="19" column="6" lean-forward="true" selection-start-line="19" selection-start-column="6" selection-end-line="19" selection-end-column="6" />
+        <state relative-caret-position="220">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/LongestSubstring.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="21" selection-start-line="29" selection-start-column="21" selection-end-line="29" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="638">
-          <caret line="29" column="10" selection-start-line="29" selection-start-column="10" selection-end-line="29" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/牛客/剑指offer/offer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1716">
-          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java5/Tree/Tree.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2882">
-          <caret line="131" column="16" selection-start-line="131" selection-start-column="16" selection-end-line="131" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/排序/Sort.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main3.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+          <caret line="21" column="6" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/京东/Main2.java">
+    <entry file="file://$PROJECT_DIR$/src/牛客/动态规划/LCS.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="33" column="28" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+        <state relative-caret-position="264">
+          <caret line="12" column="36" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Main3.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/美团/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="21" column="27" selection-start-line="21" selection-start-column="27" selection-end-line="21" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/math/BigDecimal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="219" column="13" selection-start-line="219" selection-start-column="13" selection-end-line="219" selection-end-column="13" />
+        <state relative-caret-position="330">
+          <caret line="17" column="29" selection-start-line="17" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#34114#34115#0" expanded="true" />
-            <element signature="e#34170#34171#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.8.0_131/src.zip!/java/math/BigInteger.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/小米/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="125" column="23" selection-start-line="125" selection-start-column="23" selection-end-line="125" selection-end-column="23" />
+        <state relative-caret-position="206">
+          <caret line="18" column="33" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/笔试/小米/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
           <folding>
-            <element signature="e#22896#22897#0" expanded="true" />
-            <element signature="e#22925#22926#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/哔哩哔哩/Mian2.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Main1.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="308">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <caret line="14" column="17" selection-end-line="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test1/ArithTest.java">
+    <entry file="file://$PROJECT_DIR$/src/笔试/科大讯飞/Mian3.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1298">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/滴滴/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="17" lean-forward="true" selection-start-line="27" selection-end-line="28" />
+        <state relative-caret-position="814">
+          <caret line="37" column="16" lean-forward="true" selection-start-line="37" selection-start-column="16" selection-end-line="37" selection-end-column="16" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/力扣/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="514">
-          <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/滴滴/并查集岛屿问题/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="46" column="15" lean-forward="true" selection-start-line="46" selection-start-column="15" selection-end-line="46" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Test1/heh.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="902">
-          <caret line="41" column="5" lean-forward="true" selection-start-line="41" selection-start-column="5" selection-end-line="41" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/笔试/滴滴/Main2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1568260722963" expanded="true" signature="924:949" ph="..." />
           </folding>
         </state>
       </provider>

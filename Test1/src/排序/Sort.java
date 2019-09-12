@@ -31,7 +31,7 @@ public class Sort {
         int end = right;    // 不是 right - 1
         int pivot = arr[right];        // pivot 存的就是基准值
 
-        while (begin < end) {
+        while (begin <end) {
             // 如果基准值在最右边，想先动 begin
             // array[begin] 要 <= 不能 <
             while (begin < end && arr[begin] <= pivot) {
