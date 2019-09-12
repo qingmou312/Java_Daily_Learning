@@ -25,7 +25,7 @@ https://so.gushiwen.org
 
 # 实现
 
-![功能实现](.\tangshi2.jpg )
+![功能实现](https://github.com/qingmou312/Java_Daily_Learning/blob/master/Tang_Poem/tangshi2.jpg )
 Java基础、JDBC编程、MySQL数据库、Web服务SparkJava轻量级的web服务开发框架、网页解析工具htmlunit、中文分词
 
 # 结果展示
