@@ -50,7 +50,7 @@
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
-            <version>5.1.46 </version>
+            <version>8.0.28 </version>
         </dependency>
 
         <!--数据库的连接池,提高数据库访问效率-->
